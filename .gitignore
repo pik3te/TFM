@@ -1,0 +1,6 @@
+#Ignores All DMG
+*.dmg
+
+#Ignores dataset folder
+dataset/
+
