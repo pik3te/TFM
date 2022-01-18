@@ -4,3 +4,6 @@
 #Ignores dataset folder
 dataset/
 
+#Ignores github token
+token
+
