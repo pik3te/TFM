@@ -1,9 +1,0 @@
-#Ignores All DMG
-*.dmg
-
-#Ignores dataset folder
-dataset/
-
-#Ignores github token
-token
-
