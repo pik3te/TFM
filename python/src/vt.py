@@ -1,10 +1,9 @@
 import requests
 import hashlib
 import os
+import json
 
 apikey = open("../../vtoken", "r").read().rstrip('\n')
-
-
 
 def vtrequest(md5hashed):
     headers = {
@@ -20,7 +19,11 @@ for filename in os.listdir("../../dataset"):
     text = f.read()
     md5Hash = hashlib.md5(text)
     md5Hashed = md5Hash.hexdigest()
-    print(vtrequest(md5Hashed).text)
+    jsondecoded = json.loads(vtrequest(md5Hashed).text)
+    print(jsondecoded)
+    print(jsondecoded['data'])
+    print(type(jsondecoded['data']))
+    print("\n")
 
 
 # 
