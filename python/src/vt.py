@@ -2,6 +2,7 @@ import requests
 import hashlib
 import os
 import json
+import datetime
 
 apikey = open("../../vtoken", "r").read().rstrip('\n')
 
@@ -20,11 +21,10 @@ for filename in os.listdir("../../dataset"):
     md5Hash = hashlib.md5(text)
     md5Hashed = md5Hash.hexdigest()
     jsondecoded = json.loads(vtrequest(md5Hashed).text)
-    print(jsondecoded)
-    print(jsondecoded['data'])
-    print(type(jsondecoded['data']))
-    print("\n")
-
+    print(jsondecoded['data']['attributes']['meaningful_name'], end = ', ') 
+    print(jsondecoded['data']['attributes']['reputation'], end = ', ')
+    print(datetime.datetime.fromtimestamp(jsondecoded['data']['attributes']['first_submission_date']), end= ', ')
+    print('\n')
 
 # 
 # file_payload = open("../../dataset/Objective_See/Ventir/Ventir", "rb").read()
