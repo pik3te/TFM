@@ -21,9 +21,11 @@ for filename in os.listdir("../../dataset"):
     md5Hash = hashlib.md5(text)
     md5Hashed = md5Hash.hexdigest()
     jsondecoded = json.loads(vtrequest(md5Hashed).text)
-    print(jsondecoded['data']['attributes']['meaningful_name'], end = ', ') 
+    print(jsondecoded['data']['attributes']['names'][0], end = ', ') 
+#    print(jsondecoded['data']['attributes']['trid'][1]['file_type'], end = ', ')
     print(jsondecoded['data']['attributes']['reputation'], end = ', ')
     print(datetime.datetime.fromtimestamp(jsondecoded['data']['attributes']['first_submission_date']), end= ', ')
+    print(datetime.datetime.fromtimestamp(jsondecoded['data']['attributes']['last_submission_date']), end= ', ')
     print('\n')
 
 # 
