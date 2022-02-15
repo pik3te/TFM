@@ -1,0 +1,818 @@
+{
+    "data": {
+        "attributes": {
+            "type_description": "Macintosh Disk Image",
+            "tlsh": "T1BC8533B5468E7A01CEACACB41B4061122E2ABFDF63B4911F8573CE6692D73154FFC50A",
+            "vhash": "710ed61fc33f0e7896ad01ac58160a2d",
+            "trid": [
+                {
+                    "file_type": "Macintosh Disk image (BZlib compressed)",
+                    "probability": 97.6
+                },
+                {
+                    "file_type": "ZLIB compressed data (var. 4)",
+                    "probability": 2.3
+                }
+            ],
+            "names": [
+                "InstallCore.dmg",
+                "installCore.dmg",
+                "adobe_flasshplayer_e2c7b_Setup.dmg"
+            ],
+            "signature_info": {
+                "CMSDigestType": "2",
+                "Signature size": "8525",
+                "CandidateCDHashFull sha1": "51bd58065c669b840c3bcab2a3f618745c64b264",
+                "Format": "app bundle with Mach-O thin (x86_64)",
+                "VersionMin": "657152",
+                "CDHash": "51bd58065c669b840c3bcab2a3f618745c64b264",
+                "Authority": "(unavailable)",
+                "Info.plist": "not bound",
+                "VersionPlatform": "1",
+                "Page size": "4096",
+                "TeamIdentifier": "SHPB74W374",
+                "Hash choices": "sha1",
+                "VersionSDK": "658176",
+                "Identifier": "com.overlaunch.leachy",
+                "CandidateCDHash sha1": "51bd58065c669b840c3bcab2a3f618745c64b264",
+                "CMSDigest": "eb05044e31da30ed79308d4af2e6cfb855552e92e869b1e4bb9225bad559fea8"
+            },
+            "last_modification_date": 1612470630,
+            "type_tag": "dmg",
+            "times_submitted": 5,
+            "total_votes": {
+                "harmless": 0,
+                "malicious": 0
+            },
+            "size": 1787406,
+            "popular_threat_classification": {
+                "suggested_threat_label": "pua.installmiez/extinstall",
+                "popular_threat_category": [
+                    {
+                        "count": 5,
+                        "value": "pua"
+                    },
+                    {
+                        "count": 3,
+                        "value": "virus"
+                    },
+                    {
+                        "count": 2,
+                        "value": "trojan"
+                    }
+                ],
+                "popular_threat_name": [
+                    {
+                        "count": 11,
+                        "value": "installmiez"
+                    },
+                    {
+                        "count": 4,
+                        "value": "extinstall"
+                    },
+                    {
+                        "count": 2,
+                        "value": "installcore"
+                    }
+                ]
+            },
+            "dmg_info": {
+                "blkx": [
+                    {
+                        "attributes": "0x0050",
+                        "name": "Protective Master Boot Record (MBR : 0)"
+                    },
+                    {
+                        "attributes": "0x0050",
+                        "name": "GPT Header (Primary GPT Header : 1)"
+                    },
+                    {
+                        "attributes": "0x0050",
+                        "name": "GPT Partition Data (Primary GPT Table : 2)"
+                    },
+                    {
+                        "attributes": "0x0050",
+                        "name": " (Apple_Free : 3)"
+                    },
+                    {
+                        "attributes": "0x0050",
+                        "name": "disk image (Apple_HFS : 4)"
+                    },
+                    {
+                        "attributes": "0x0050",
+                        "name": " (Apple_Free : 5)"
+                    },
+                    {
+                        "attributes": "0x0050",
+                        "name": "GPT Partition Data (Backup GPT Table : 6)"
+                    },
+                    {
+                        "attributes": "0x0050",
+                        "name": "GPT Header (Backup GPT Header : 7)"
+                    }
+                ],
+                "plst": [
+                    {
+                        "attributes": "0x0050",
+                        "name": "ID:0"
+                    }
+                ],
+                "running_data_fork_offset": 0,
+                "plst_keys": [
+                    "resource-fork"
+                ],
+                "dmg_version": 4,
+                "xml_offset": 1766711,
+                "data_fork_offset": 0,
+                "rsrc_fork_offset": 0,
+                "resourcefork_keys": [
+                    "blkx",
+                    "plst"
+                ],
+                "xml_length": 8326,
+                "data_fork_length": 1766711,
+                "hfs": {
+                    "unreadable_files": 0,
+                    "info_plist": {
+                        "CFBundleInfoDictionaryVersion": "6.0",
+                        "DTXcodeBuild": "7A1001",
+                        "CFBundleSupportedPlatforms": "['MacOSX']",
+                        "CFBundleIdentifier": "com.overlaunch.leachy",
+                        "DTSDKName": "macosx10.11",
+                        "DTSDKBuild": "15A278",
+                        "CFBundleShortVersionString": "104.53",
+                        "BuildMachineOSBuild": "14F27",
+                        "makedate": "201601201537",
+                        "CFBundleExecutable": "tirocinium",
+                        "LSMinimumSystemVersion": "10.7",
+                        "NSAppTransportSecurity": "{'NSAllowsArbitraryLoads': True, 'sdk_ver': '104.53', 't_ver': '01'}",
+                        "CFBundleVersion": "1",
+                        "t_ver": "01",
+                        "CFBundleIconFile": "AppIcon",
+                        "DTPlatformBuild": "7A1001",
+                        "NSMainNibFile": "MainMenu",
+                        "DTXcode": "0701",
+                        "CFBundleDevelopmentRegion": "en",
+                        "LSApplicationCategoryType": "public.app-category.utilities",
+                        "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+                        "CFBundleSignature": "????",
+                        "DTPlatformVersion": "GM",
+                        "CFBundleName": "Installer",
+                        "CFBundlePackageType": "APPL",
+                        "NSPrincipalClass": "NSApplication",
+                        "sdk_ver": "104.53"
+                    },
+                    "main_executable": {
+                        "path": "/Installer.app/Contents/MacOS/tirocinium",
+                        "sha256": "695bf2cf27ff23fcc3c60ef9a8acf6f5f7bf7aa9ee787dcc9f7f0c58994f447b",
+                        "size": 814064
+                    },
+                    "num_files": 59
+                },
+                "rsrc_fork_length": 0
+            },
+            "last_submission_date": 1524415566,
+            "last_analysis_results": {
+                "Bkav": {
+                    "category": "undetected",
+                    "engine_name": "Bkav",
+                    "engine_version": "1.3.0.9899",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Lionic": {
+                    "category": "malicious",
+                    "engine_name": "AegisLab",
+                    "engine_version": "4.2",
+                    "result": "Riskware.OSX.ExtInstall.1!c",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Elastic": {
+                    "category": "type-unsupported",
+                    "engine_name": "Elastic",
+                    "engine_version": "4.0.16",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210121"
+                },
+                "TotalDefense": {
+                    "category": "undetected",
+                    "engine_name": "TotalDefense",
+                    "engine_version": "37.1.62.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "MicroWorld-eScan": {
+                    "category": "malicious",
+                    "engine_name": "MicroWorld-eScan",
+                    "engine_version": "14.0.409.0",
+                    "result": "Application.MAC.InstallMiez.BK",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "ClamAV": {
+                    "category": "failure",
+                    "engine_name": "ClamAV",
+                    "engine_version": "0.103.1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "CMC": {
+                    "category": "undetected",
+                    "engine_name": "CMC",
+                    "engine_version": "2.10.2019.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210130"
+                },
+                "CAT-QuickHeal": {
+                    "category": "undetected",
+                    "engine_name": "CAT-QuickHeal",
+                    "engine_version": "14.00",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "McAfee": {
+                    "category": "malicious",
+                    "engine_name": "McAfee",
+                    "engine_version": "6.0.6.653",
+                    "result": "RDN/Generic.gce",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Malwarebytes": {
+                    "category": "undetected",
+                    "engine_name": "Malwarebytes",
+                    "engine_version": "4.2.1.18",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210203"
+                },
+                "Zillya": {
+                    "category": "malicious",
+                    "engine_name": "Zillya",
+                    "engine_version": "2.0.0.4286",
+                    "result": "Downloader.Iframe.JS.1906",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Paloalto": {
+                    "category": "type-unsupported",
+                    "engine_name": "Paloalto",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Sangfor": {
+                    "category": "undetected",
+                    "engine_name": "Sangfor",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "K7AntiVirus": {
+                    "category": "undetected",
+                    "engine_name": "K7AntiVirus",
+                    "engine_version": "11.164.36362",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Alibaba": {
+                    "category": "type-unsupported",
+                    "engine_name": "Alibaba",
+                    "engine_version": "0.3.0.5",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190527"
+                },
+                "K7GW": {
+                    "category": "undetected",
+                    "engine_name": "K7GW",
+                    "engine_version": "11.164.36358",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "CrowdStrike": {
+                    "category": "type-unsupported",
+                    "engine_name": "CrowdStrike",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20180202"
+                },
+                "BitDefenderTheta": {
+                    "category": "undetected",
+                    "engine_name": "BitDefenderTheta",
+                    "engine_version": "7.2.37796.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210201"
+                },
+                "Cyren": {
+                    "category": "undetected",
+                    "engine_name": "Cyren",
+                    "engine_version": "6.3.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "SymantecMobileInsight": {
+                    "category": "type-unsupported",
+                    "engine_name": "SymantecMobileInsight",
+                    "engine_version": "2.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210126"
+                },
+                "Symantec": {
+                    "category": "malicious",
+                    "engine_name": "Symantec",
+                    "engine_version": "1.13.0.0",
+                    "result": "OSX.Malcol",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "ESET-NOD32": {
+                    "category": "undetected",
+                    "engine_name": "ESET-NOD32",
+                    "engine_version": "22758",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Baidu": {
+                    "category": "undetected",
+                    "engine_name": "Baidu",
+                    "engine_version": "1.0.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190318"
+                },
+                "TrendMicro-HouseCall": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro-HouseCall",
+                    "engine_version": "10.0.0.1040",
+                    "result": "OSX_INSTACOR.RFG",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Avast": {
+                    "category": "malicious",
+                    "engine_name": "Avast",
+                    "engine_version": "21.1.5827.0",
+                    "result": "MacOS:AdwareSig [Adw]",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Cynet": {
+                    "category": "malicious",
+                    "engine_name": "Cynet",
+                    "engine_version": "4.0.0.25",
+                    "result": "Malicious (score: 85)",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Kaspersky": {
+                    "category": "malicious",
+                    "engine_name": "Kaspersky",
+                    "engine_version": "15.0.1.13",
+                    "result": "not-a-virus:HEUR:RiskTool.OSX.ExtInstall.b",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "BitDefender": {
+                    "category": "malicious",
+                    "engine_name": "BitDefender",
+                    "engine_version": "7.2",
+                    "result": "Application.MAC.InstallMiez.BK",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "NANO-Antivirus": {
+                    "category": "malicious",
+                    "engine_name": "NANO-Antivirus",
+                    "engine_version": "1.0.146.25261",
+                    "result": "Riskware.Mac.ExtInstallTool.eetcjp",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "ViRobot": {
+                    "category": "undetected",
+                    "engine_name": "ViRobot",
+                    "engine_version": "2014.3.20.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Rising": {
+                    "category": "undetected",
+                    "engine_name": "Rising",
+                    "engine_version": "25.0.0.26",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Ad-Aware": {
+                    "category": "malicious",
+                    "engine_name": "Ad-Aware",
+                    "engine_version": "3.0.16.117",
+                    "result": "Application.MAC.InstallMiez.BK",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Trustlook": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trustlook",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Emsisoft": {
+                    "category": "malicious",
+                    "engine_name": "Emsisoft",
+                    "engine_version": "2018.12.0.1641",
+                    "result": "Application.MAC.InstallMiez.BK (B)",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Comodo": {
+                    "category": "malicious",
+                    "engine_name": "Comodo",
+                    "engine_version": "33234",
+                    "result": "Malware@#1mdkzhs07c3z5",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "F-Secure": {
+                    "category": "malicious",
+                    "engine_name": "F-Secure",
+                    "engine_version": "12.0.86.52",
+                    "result": "PrivacyRisk.SPR/OSX.InstallMiez",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "DrWeb": {
+                    "category": "malicious",
+                    "engine_name": "DrWeb",
+                    "engine_version": "7.0.49.9080",
+                    "result": "Tool.Mac.ExtInstall.23",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "VIPRE": {
+                    "category": "undetected",
+                    "engine_name": "VIPRE",
+                    "engine_version": "90174",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "TrendMicro": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro",
+                    "engine_version": "11.0.0.1006",
+                    "result": "OSX_INSTACOR.RFG",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "McAfee-GW-Edition": {
+                    "category": "malicious",
+                    "engine_name": "McAfee-GW-Edition",
+                    "engine_version": "v2019.1.2+3728",
+                    "result": "RDN/Generic.gce",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "SentinelOne": {
+                    "category": "type-unsupported",
+                    "engine_name": "SentinelOne",
+                    "engine_version": "5.0.0.9",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210131"
+                },
+                "Trapmine": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trapmine",
+                    "engine_version": "3.5.0.1023",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200727"
+                },
+                "FireEye": {
+                    "category": "malicious",
+                    "engine_name": "FireEye",
+                    "engine_version": "32.44.1.0",
+                    "result": "Application.MAC.InstallMiez.BK",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Sophos": {
+                    "category": "malicious",
+                    "engine_name": "Sophos",
+                    "engine_version": "1.0.2.0",
+                    "result": "InstallCore (PUA)",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "APEX": {
+                    "category": "type-unsupported",
+                    "engine_name": "APEX",
+                    "engine_version": "6.128",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Avast-Mobile": {
+                    "category": "type-unsupported",
+                    "engine_name": "Avast-Mobile",
+                    "engine_version": "210204-04",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Jiangmin": {
+                    "category": "undetected",
+                    "engine_name": "Jiangmin",
+                    "engine_version": "16.0.100",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Webroot": {
+                    "category": "type-unsupported",
+                    "engine_name": "Webroot",
+                    "engine_version": "1.0.0.403",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Avira": {
+                    "category": "malicious",
+                    "engine_name": "Avira",
+                    "engine_version": "8.3.3.10",
+                    "result": "SPR/OSX.InstallMiez.1643",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "eGambit": {
+                    "category": "type-unsupported",
+                    "engine_name": "eGambit",
+                    "engine_version": null,
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Antiy-AVL": {
+                    "category": "undetected",
+                    "engine_name": "Antiy-AVL",
+                    "engine_version": "3.0.0.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Kingsoft": {
+                    "category": "undetected",
+                    "engine_name": "Kingsoft",
+                    "engine_version": "2017.9.26.565",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Microsoft": {
+                    "category": "malicious",
+                    "engine_name": "Microsoft",
+                    "engine_version": "1.1.17800.5",
+                    "result": "PUA:Win32/Vigua.A",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Gridinsoft": {
+                    "category": "undetected",
+                    "engine_name": "Gridinsoft",
+                    "engine_version": "1.0.28.119",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Arcabit": {
+                    "category": "malicious",
+                    "engine_name": "Arcabit",
+                    "engine_version": "1.0.0.881",
+                    "result": "Application.MAC.InstallMiez.BK",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "SUPERAntiSpyware": {
+                    "category": "undetected",
+                    "engine_name": "SUPERAntiSpyware",
+                    "engine_version": "5.6.0.1032",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210129"
+                },
+                "ZoneAlarm": {
+                    "category": "malicious",
+                    "engine_name": "ZoneAlarm",
+                    "engine_version": "1.0",
+                    "result": "not-a-virus:HEUR:RiskTool.OSX.ExtInstall.b",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "GData": {
+                    "category": "malicious",
+                    "engine_name": "GData",
+                    "engine_version": "A:25.28537B:27.21842",
+                    "result": "Application.MAC.InstallMiez.BK",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "TACHYON": {
+                    "category": "undetected",
+                    "engine_name": "TACHYON",
+                    "engine_version": "2021-02-04.05",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "BitDefenderFalx": {
+                    "category": "type-unsupported",
+                    "engine_name": "BitDefenderFalx",
+                    "engine_version": "2.0.936",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200916"
+                },
+                "AhnLab-V3": {
+                    "category": "undetected",
+                    "engine_name": "AhnLab-V3",
+                    "engine_version": "3.19.4.10106",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Acronis": {
+                    "category": "type-unsupported",
+                    "engine_name": "Acronis",
+                    "engine_version": "1.1.1.80",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20201023"
+                },
+                "VBA32": {
+                    "category": "undetected",
+                    "engine_name": "VBA32",
+                    "engine_version": "4.4.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "ALYac": {
+                    "category": "malicious",
+                    "engine_name": "ALYac",
+                    "engine_version": "1.1.3.1",
+                    "result": "Application.MAC.InstallMiez.BK",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "MAX": {
+                    "category": "malicious",
+                    "engine_name": "MAX",
+                    "engine_version": "2019.9.16.1",
+                    "result": "malware (ai score=99)",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Cylance": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cylance",
+                    "engine_version": "2.3.1.101",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Zoner": {
+                    "category": "undetected",
+                    "engine_name": "Zoner",
+                    "engine_version": "0.0.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210203"
+                },
+                "Tencent": {
+                    "category": "malicious",
+                    "engine_name": "Tencent",
+                    "engine_version": "1.0.0.1",
+                    "result": "Trojan.OSX.InstallCore.10000031",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Yandex": {
+                    "category": "undetected",
+                    "engine_name": "Yandex",
+                    "engine_version": "5.5.2.24",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Ikarus": {
+                    "category": "malicious",
+                    "engine_name": "Ikarus",
+                    "engine_version": "0.1.5.2",
+                    "result": "PUA.MAC.InstallMiez",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "MaxSecure": {
+                    "category": "malicious",
+                    "engine_name": "MaxSecure",
+                    "engine_version": "1.0.0.1",
+                    "result": "Trojan.Malware.9094604.susgen",
+                    "method": "blacklist",
+                    "engine_update": "20201212"
+                },
+                "Fortinet": {
+                    "category": "undetected",
+                    "engine_name": "Fortinet",
+                    "engine_version": "6.2.142.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "AVG": {
+                    "category": "malicious",
+                    "engine_name": "AVG",
+                    "engine_version": "21.1.5827.0",
+                    "result": "MacOS:AdwareSig [Adw]",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Cybereason": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cybereason",
+                    "engine_version": null,
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20180308"
+                },
+                "Panda": {
+                    "category": "undetected",
+                    "engine_name": "Panda",
+                    "engine_version": "4.6.4.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                },
+                "Qihoo-360": {
+                    "category": "malicious",
+                    "engine_name": "Qihoo-360",
+                    "engine_version": "1.0.0.1120",
+                    "result": "Mac/Virus.RiskTool.a73",
+                    "method": "blacklist",
+                    "engine_update": "20210204"
+                }
+            },
+            "sha256": "61c941280e3f49e176361a1696200ab304a7c10b529e418bf14fae0642d18118",
+            "type_extension": "dmg",
+            "tags": [
+                "dmg",
+                "signed"
+            ],
+            "last_analysis_date": 1612463411,
+            "unique_sources": 5,
+            "first_submission_date": 1454788332,
+            "ssdeep": "49152:ZDRoGzJ/czGNBycrpWdONsG2QQhEdXHrP5F5aavO:bPzxcaNgc1Wdy24dXrP5baaW",
+            "md5": "6fb065fcff8d92da51bba667dc9f770c",
+            "sha1": "aff1633271234ae4c816c289bfabb5377af37688",
+            "magic": "data",
+            "last_analysis_stats": {
+                "harmless": 0,
+                "type-unsupported": 16,
+                "suspicious": 0,
+                "confirmed-timeout": 0,
+                "timeout": 0,
+                "failure": 1,
+                "malicious": 32,
+                "undetected": 27
+            },
+            "meaningful_name": "com.overlaunch.leachy",
+            "reputation": 0,
+            "first_seen_itw_date": 1454788313
+        },
+        "type": "file",
+        "id": "61c941280e3f49e176361a1696200ab304a7c10b529e418bf14fae0642d18118",
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/files/61c941280e3f49e176361a1696200ab304a7c10b529e418bf14fae0642d18118"
+        }
+    }
+}

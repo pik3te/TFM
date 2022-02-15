@@ -1,0 +1,883 @@
+{
+    "data": {
+        "attributes": {
+            "type_description": "JAR",
+            "vhash": "9021fdedad55425a49bfd735120b3472",
+            "trid": [
+                {
+                    "file_type": "Java Archive",
+                    "probability": 72.9
+                },
+                {
+                    "file_type": "ZIP compressed archive",
+                    "probability": 21.6
+                },
+                {
+                    "file_type": "PrintFox/Pagefox bitmap (640x800)",
+                    "probability": 5.4
+                }
+            ],
+            "names": [
+                "v7sk7h7ph.dll",
+                "Minecraft.jar",
+                "JacksBot.zip"
+            ],
+            "last_modification_date": 1644403528,
+            "type_tag": "jar",
+            "jar_info": {
+                "packages": [
+                    "java.awt",
+                    "java.awt.datatransfer",
+                    "java.awt.event",
+                    "java.awt.image",
+                    "java.io",
+                    "java.lang",
+                    "java.lang.reflect",
+                    "java.math",
+                    "java.net",
+                    "java.security",
+                    "java.security.spec",
+                    "java.util",
+                    "java.util.prefs",
+                    "java.util.zip",
+                    "javax.crypto",
+                    "javax.crypto.spec",
+                    "javax.imageio",
+                    "javax.imageio.metadata",
+                    "javax.imageio.stream",
+                    "javax.script",
+                    "javax.sound.sampled",
+                    "javax.swing",
+                    "javax.swing.border",
+                    "javax.swing.text",
+                    "javax.xml.parsers"
+                ],
+                "max_depth": 0,
+                "total_dirs": 0,
+                "manifest": "Manifest-Version: 1.0\r\nClass-Path: .\r\nMain-Class: Main\r\n\r\nName: org/jnativehook\r\nImplementation-Vendor: Alexander Barker\r\nImplementation-Title: JNativeHook Library\r\nImplementation-Version: 1.1.0",
+                "files_by_type": {
+                    "ascii": 3,
+                    "class": 43
+                },
+                "max_date": "2017-07-02 14:45:10",
+                "filenames": [
+                    "A.class",
+                    "B.class",
+                    "C.class",
+                    "D.class",
+                    "E.class",
+                    "F.class",
+                    "G.class",
+                    "H.class",
+                    "I.class",
+                    "J.class",
+                    "K.class",
+                    "L.class",
+                    "M.class",
+                    "META-INF/MANIFEST.MF",
+                    "Main.class",
+                    "N.class",
+                    "O.class",
+                    "P.class",
+                    "a.class",
+                    "b.class",
+                    "c.class",
+                    "config.dat",
+                    "d.class",
+                    "e.class",
+                    "f.class",
+                    "g.class",
+                    "h.class",
+                    "i.class",
+                    "j.class",
+                    "k.class",
+                    "key.dat",
+                    "l.class",
+                    "m.class",
+                    "n.class",
+                    "o.class",
+                    "p.class",
+                    "q.class",
+                    "r.class",
+                    "s.class",
+                    "t.class",
+                    "u.class",
+                    "v.class",
+                    "w.class",
+                    "x.class",
+                    "y.class",
+                    "z.class"
+                ],
+                "total_files": 46,
+                "min_date": "2012-10-11 17:35:00",
+                "strings": [
+                    ",Ljavax/swing/LayoutStyle",
+                    "-Software",
+                    "-jar",
+                    "-nok",
+                    ".exe",
+                    ".jar",
+                    ".minecraft",
+                    ".minecraft/",
+                    ".torrent",
+                    ".vbs",
+                    "/Desktop/",
+                    "/Desktop/drop",
+                    "/bin/bash",
+                    "/bin/ps",
+                    "/config.dat",
+                    "/etc/rc.common",
+                    "/etc/rc.local",
+                    "/home/username/.filezilla/recentservers.xml",
+                    "/key.dat",
+                    "/plugins.dat",
+                    "1234567890",
+                    "1You",
+                    "1javax/imageio/stream/MemoryCacheImageOutputStream",
+                    "<clinit>",
+                    "<init>",
+                    "ADAPT",
+                    "ALGORITHM",
+                    "APORT",
+                    "APPDATA",
+                    "ARME",
+                    "Accept-Encoding:",
+                    "Alignment",
+                    "BASELINE",
+                    "BEEP",
+                    "BLjava/lang/String",
+                    "CBOARD",
+                    "CBOARDC",
+                    "CHAT",
+                    "CMOUSE",
+                    "COMPUTERNAME",
+                    "CORRUPT",
+                    "COUNTRY",
+                    "CPIA",
+                    "CUSTOM",
+                    "CUSTOMDL",
+                    "Chat",
+                    "Code",
+                    "ComponentPlacement",
+                    "Connection:",
+                    "ConstantValue",
+                    "Controller:",
+                    "CreateObject",
+                    "CurrentVersion",
+                    "DATE",
+                    "DCPU",
+                    "DELETEFILE",
+                    "DESKTOP",
+                    "DISCONNECT",
+                    "DISK",
+                    "DLRUNURL",
+                    "DONE",
+                    "DRAIN",
+                    "DisplayName",
+                    "Downloaded",
+                    "Downloading",
+                    "EFIND",
+                    "EMPTY",
+                    "ENDCHAT",
+                    "ENDCMD",
+                    "ENDCONTENT",
+                    "ENDFOLDERLIST",
+                    "ENDK",
+                    "ERR:",
+                    "EXEC",
+                    "EXECP",
+                    "Error",
+                    "Error:",
+                    "Executed",
+                    "FAIL",
+                    "FIIZZ",
+                    "FILE",
+                    "FIND",
+                    "FLOOD",
+                    "FOLDER",
+                    "FOLDERLIST",
+                    "Failed",
+                    "File",
+                    "FileZilla",
+                    "Foreground",
+                    "Freg",
+                    "GETFILE",
+                    "GETHOSTFI",
+                    "GETLOG",
+                    "GETPORTS",
+                    "GETRAM",
+                    "GETSCREEN",
+                    "GETSCREENONCE",
+                    "GETUT",
+                    "Group",
+                    "HEAD"
+                ]
+            },
+            "times_submitted": 1,
+            "total_votes": {
+                "harmless": 0,
+                "malicious": 0
+            },
+            "size": 52954,
+            "popular_threat_classification": {
+                "suggested_threat_label": "trojan.java/jacksbot",
+                "popular_threat_category": [
+                    {
+                        "count": 27,
+                        "value": "trojan"
+                    },
+                    {
+                        "count": 2,
+                        "value": "downloader"
+                    }
+                ],
+                "popular_threat_name": [
+                    {
+                        "count": 26,
+                        "value": "java"
+                    },
+                    {
+                        "count": 14,
+                        "value": "jacksbot"
+                    },
+                    {
+                        "count": 5,
+                        "value": "genericgb"
+                    }
+                ]
+            },
+            "last_submission_date": 1499004317,
+            "last_analysis_results": {
+                "Bkav": {
+                    "category": "undetected",
+                    "engine_name": "Bkav",
+                    "engine_version": "1.3.0.9899",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Lionic": {
+                    "category": "malicious",
+                    "engine_name": "AegisLab",
+                    "engine_version": "4.2",
+                    "result": "Trojan.Script.Jacksbot.4!c",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Elastic": {
+                    "category": "type-unsupported",
+                    "engine_name": "Elastic",
+                    "engine_version": "4.0.9",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200917"
+                },
+                "DrWeb": {
+                    "category": "malicious",
+                    "engine_name": "DrWeb",
+                    "engine_version": "7.0.49.9080",
+                    "result": "Java.Jacksbot.1",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "ClamAV": {
+                    "category": "malicious",
+                    "engine_name": "ClamAV",
+                    "engine_version": "0.102.3.0",
+                    "result": "Java.Trojan.Jacksbot-3",
+                    "method": "blacklist",
+                    "engine_update": "20200922"
+                },
+                "CMC": {
+                    "category": "undetected",
+                    "engine_name": "CMC",
+                    "engine_version": "2.7.2019.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "CAT-QuickHeal": {
+                    "category": "malicious",
+                    "engine_name": "CAT-QuickHeal",
+                    "engine_version": "14.00",
+                    "result": "JAVA.Suspicious.Gen",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "McAfee": {
+                    "category": "malicious",
+                    "engine_name": "McAfee",
+                    "engine_version": "6.0.6.653",
+                    "result": "JV/BackDoor-FGU!E887515D824E",
+                    "method": "blacklist",
+                    "engine_update": "20200922"
+                },
+                "Malwarebytes": {
+                    "category": "undetected",
+                    "engine_name": "Malwarebytes",
+                    "engine_version": "3.6.4.335",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "VIPRE": {
+                    "category": "undetected",
+                    "engine_name": "VIPRE",
+                    "engine_version": "86900",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Sangfor": {
+                    "category": "undetected",
+                    "engine_name": "Sangfor",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200814"
+                },
+                "K7AntiVirus": {
+                    "category": "malicious",
+                    "engine_name": "K7AntiVirus",
+                    "engine_version": "11.141.35296",
+                    "result": "Trojan-Downloader ( 04c573b51 )",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Alibaba": {
+                    "category": "malicious",
+                    "engine_name": "Alibaba",
+                    "engine_version": "0.3.0.5",
+                    "result": "Backdoor:JAVA/Jacksbot.6bd3e243",
+                    "method": "blacklist",
+                    "engine_update": "20190527"
+                },
+                "K7GW": {
+                    "category": "malicious",
+                    "engine_name": "K7GW",
+                    "engine_version": "11.141.35296",
+                    "result": "Trojan-Downloader ( 04c573b51 )",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Trustlook": {
+                    "category": "failure",
+                    "engine_name": "Trustlook",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "TrendMicro": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro",
+                    "engine_version": "11.0.0.1006",
+                    "result": "JAVA_JACKSBOT.A",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "BitDefenderTheta": {
+                    "category": "undetected",
+                    "engine_name": "BitDefenderTheta",
+                    "engine_version": "7.2.37796.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200918"
+                },
+                "Cyren": {
+                    "category": "undetected",
+                    "engine_name": "Cyren",
+                    "engine_version": "6.3.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "SymantecMobileInsight": {
+                    "category": "type-unsupported",
+                    "engine_name": "SymantecMobileInsight",
+                    "engine_version": "2.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200813"
+                },
+                "Symantec": {
+                    "category": "malicious",
+                    "engine_name": "Symantec",
+                    "engine_version": "1.12.0.0",
+                    "result": "Trojan.Gen.NPE",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "ESET-NOD32": {
+                    "category": "malicious",
+                    "engine_name": "ESET-NOD32",
+                    "engine_version": "22036",
+                    "result": "multiple detections",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "APEX": {
+                    "category": "type-unsupported",
+                    "engine_name": "APEX",
+                    "engine_version": "6.73",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200922"
+                },
+                "TrendMicro-HouseCall": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro-HouseCall",
+                    "engine_version": "10.0.0.1040",
+                    "result": "JAVA_JACKSBOT.A",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Avast": {
+                    "category": "malicious",
+                    "engine_name": "Avast",
+                    "engine_version": "18.4.3895.0",
+                    "result": "Java:Malware-gen [Trj]",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Cynet": {
+                    "category": "malicious",
+                    "engine_name": "Cynet",
+                    "engine_version": "4.0.0.24",
+                    "result": "Malicious (score: 85)",
+                    "method": "blacklist",
+                    "engine_update": "20200917"
+                },
+                "Kaspersky": {
+                    "category": "malicious",
+                    "engine_name": "Kaspersky",
+                    "engine_version": "15.0.1.13",
+                    "result": "HEUR:Backdoor.Java.Generic",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "BitDefender": {
+                    "category": "malicious",
+                    "engine_name": "BitDefender",
+                    "engine_version": "7.2",
+                    "result": "Java.Trojan.GenericGB.25162",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "NANO-Antivirus": {
+                    "category": "malicious",
+                    "engine_name": "NANO-Antivirus",
+                    "engine_version": "1.0.134.25140",
+                    "result": "Trojan.Java.Jacksbot.fdhgqz",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "ViRobot": {
+                    "category": "undetected",
+                    "engine_name": "ViRobot",
+                    "engine_version": "2014.3.20.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "MicroWorld-eScan": {
+                    "category": "malicious",
+                    "engine_name": "MicroWorld-eScan",
+                    "engine_version": "14.0.409.0",
+                    "result": "Java.Trojan.GenericGB.25162",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Tencent": {
+                    "category": "malicious",
+                    "engine_name": "Tencent",
+                    "engine_version": "1.0.0.1",
+                    "result": "Java.Backdoor.Generic.Alil",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Ad-Aware": {
+                    "category": "malicious",
+                    "engine_name": "Ad-Aware",
+                    "engine_version": "3.0.16.117",
+                    "result": "Java.Trojan.GenericGB.25162",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Sophos": {
+                    "category": "malicious",
+                    "engine_name": "Sophos",
+                    "engine_version": "4.98.0",
+                    "result": "Troj/JvJacks-A",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Comodo": {
+                    "category": "malicious",
+                    "engine_name": "Comodo",
+                    "engine_version": "32836",
+                    "result": "Malware@#v96ce8pij3y7",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "F-Secure": {
+                    "category": "malicious",
+                    "engine_name": "F-Secure",
+                    "engine_version": "12.0.86.52",
+                    "result": "Backdoor:Java/Jacksbot.A",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Baidu": {
+                    "category": "undetected",
+                    "engine_name": "Baidu",
+                    "engine_version": "1.0.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190318"
+                },
+                "Zillya": {
+                    "category": "malicious",
+                    "engine_name": "Zillya",
+                    "engine_version": "2.0.0.4180",
+                    "result": "Trojan.Jacksbot.JS.634",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Invincea": {
+                    "category": "malicious",
+                    "engine_name": "Invincea",
+                    "engine_version": "1.0.1.0",
+                    "result": "Troj/JvJacks-A",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "McAfee-GW-Edition": {
+                    "category": "malicious",
+                    "engine_name": "McAfee-GW-Edition",
+                    "engine_version": "v2019.1.2+3728",
+                    "result": "JV/BackDoor-FGU!E887515D824E",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "SentinelOne": {
+                    "category": "type-unsupported",
+                    "engine_name": "SentinelOne",
+                    "engine_version": "4.4.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200724"
+                },
+                "Trapmine": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trapmine",
+                    "engine_version": "3.5.0.1023",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200727"
+                },
+                "FireEye": {
+                    "category": "malicious",
+                    "engine_name": "FireEye",
+                    "engine_version": "32.36.1.0",
+                    "result": "Java.Trojan.GenericGB.25162",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Emsisoft": {
+                    "category": "malicious",
+                    "engine_name": "Emsisoft",
+                    "engine_version": "2018.12.0.1641",
+                    "result": "Java.Trojan.GenericGB.25162 (B)",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Paloalto": {
+                    "category": "type-unsupported",
+                    "engine_name": "Paloalto",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "GData": {
+                    "category": "malicious",
+                    "engine_name": "GData",
+                    "engine_version": "A:25.27115B:27.20271",
+                    "result": "Java.Trojan.GenericGBA.4103",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Jiangmin": {
+                    "category": "undetected",
+                    "engine_name": "Jiangmin",
+                    "engine_version": "16.0.100",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Webroot": {
+                    "category": "type-unsupported",
+                    "engine_name": "Webroot",
+                    "engine_version": "1.0.0.403",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Avira": {
+                    "category": "malicious",
+                    "engine_name": "Avira",
+                    "engine_version": "8.3.3.8",
+                    "result": "JAVA/Dldr.Lwinbot.S",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Antiy-AVL": {
+                    "category": "undetected",
+                    "engine_name": "Antiy-AVL",
+                    "engine_version": "3.0.0.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Kingsoft": {
+                    "category": "undetected",
+                    "engine_name": "Kingsoft",
+                    "engine_version": "2013.8.14.323",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Microsoft": {
+                    "category": "malicious",
+                    "engine_name": "Microsoft",
+                    "engine_version": "1.1.17400.5",
+                    "result": "Backdoor:Java/Jacksbot.A",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Arcabit": {
+                    "category": "malicious",
+                    "engine_name": "Arcabit",
+                    "engine_version": "1.0.0.881",
+                    "result": "Trojan.Java.Agent.BAV",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "SUPERAntiSpyware": {
+                    "category": "undetected",
+                    "engine_name": "SUPERAntiSpyware",
+                    "engine_version": "5.6.0.1032",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200918"
+                },
+                "ZoneAlarm": {
+                    "category": "malicious",
+                    "engine_name": "ZoneAlarm",
+                    "engine_version": "1.0",
+                    "result": "HEUR:Backdoor.Java.Generic",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Avast-Mobile": {
+                    "category": "undetected",
+                    "engine_name": "Avast-Mobile",
+                    "engine_version": "200923-00",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "TACHYON": {
+                    "category": "undetected",
+                    "engine_name": "TACHYON",
+                    "engine_version": "2020-09-23.02",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "AhnLab-V3": {
+                    "category": "malicious",
+                    "engine_name": "AhnLab-V3",
+                    "engine_version": "3.18.1.10026",
+                    "result": "Java/Jacksbot",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Acronis": {
+                    "category": "type-unsupported",
+                    "engine_name": "Acronis",
+                    "engine_version": "1.1.1.78",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200917"
+                },
+                "VBA32": {
+                    "category": "malicious",
+                    "engine_name": "VBA32",
+                    "engine_version": "4.4.1",
+                    "result": "Backdoor.Java.Jacksbot.a",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "ALYac": {
+                    "category": "undetected",
+                    "engine_name": "ALYac",
+                    "engine_version": "1.1.1.5",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "MAX": {
+                    "category": "malicious",
+                    "engine_name": "MAX",
+                    "engine_version": "2019.9.16.1",
+                    "result": "malware (ai score=100)",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Cylance": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cylance",
+                    "engine_version": "2.3.1.101",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Zoner": {
+                    "category": "undetected",
+                    "engine_name": "Zoner",
+                    "engine_version": "0.0.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200920"
+                },
+                "Rising": {
+                    "category": "undetected",
+                    "engine_name": "Rising",
+                    "engine_version": "25.0.0.26",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Yandex": {
+                    "category": "undetected",
+                    "engine_name": "Yandex",
+                    "engine_version": "5.5.2.24",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200911"
+                },
+                "Ikarus": {
+                    "category": "malicious",
+                    "engine_name": "Ikarus",
+                    "engine_version": "0.1.5.2",
+                    "result": "Backdoor.Java.Jacksbot",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "eGambit": {
+                    "category": "type-unsupported",
+                    "engine_name": "eGambit",
+                    "engine_version": null,
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Fortinet": {
+                    "category": "malicious",
+                    "engine_name": "Fortinet",
+                    "engine_version": "6.2.142.0",
+                    "result": "Java/Jacksbot.A!tr",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "AVG": {
+                    "category": "malicious",
+                    "engine_name": "AVG",
+                    "engine_version": "18.4.3895.0",
+                    "result": "Java:Malware-gen [Trj]",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                },
+                "Cybereason": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cybereason",
+                    "engine_version": null,
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20180308"
+                },
+                "Panda": {
+                    "category": "undetected",
+                    "engine_name": "Panda",
+                    "engine_version": "4.6.4.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200922"
+                },
+                "CrowdStrike": {
+                    "category": "type-unsupported",
+                    "engine_name": "CrowdStrike",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20180202"
+                },
+                "Qihoo-360": {
+                    "category": "malicious",
+                    "engine_name": "Qihoo-360",
+                    "engine_version": "1.0.0.1120",
+                    "result": "Generic/Backdoor.dee",
+                    "method": "blacklist",
+                    "engine_update": "20200923"
+                }
+            },
+            "sha256": "5ea379581cfd7869f3975fdc810f013fd3d37ca24d54138d918fb54672f763ff",
+            "type_extension": "jar",
+            "tags": [
+                "jar"
+            ],
+            "last_analysis_date": 1600862337,
+            "unique_sources": 1,
+            "first_submission_date": 1499004317,
+            "ssdeep": "1536:OLBYkyvvGIShafWUnK/UOl/MVPzihKv49k:uyv+IShFRS69k",
+            "bundle_info": {
+                "highest_datetime": "2017-07-02 14:45:10",
+                "lowest_datetime": "2012-10-11 17:35:00",
+                "num_children": 46,
+                "extensions": {
+                    "dat": 2,
+                    "MF": 1
+                },
+                "file_types": {
+                    "Java Bytecode": 43,
+                    "unknown": 3
+                },
+                "type": "JAR",
+                "uncompressed_size": 92833
+            },
+            "md5": "e887515d824e7d67e545b1e97597a653",
+            "sha1": "dabdd02cbbb0a6026c801d653b7056a9489f842f",
+            "magic": "Zip archive data, at least v2.0 to extract",
+            "last_analysis_stats": {
+                "harmless": 0,
+                "type-unsupported": 12,
+                "suspicious": 0,
+                "confirmed-timeout": 0,
+                "timeout": 0,
+                "failure": 1,
+                "malicious": 40,
+                "undetected": 20
+            },
+            "meaningful_name": "v7sk7h7ph.dll",
+            "reputation": 0,
+            "first_seen_itw_date": 1591881115
+        },
+        "type": "file",
+        "id": "5ea379581cfd7869f3975fdc810f013fd3d37ca24d54138d918fb54672f763ff",
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/files/5ea379581cfd7869f3975fdc810f013fd3d37ca24d54138d918fb54672f763ff"
+        }
+    }
+}
