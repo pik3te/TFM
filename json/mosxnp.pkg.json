@@ -1,0 +1,779 @@
+{
+    "data": {
+        "attributes": {
+            "type_description": "Apple software package",
+            "tlsh": "T15D2412369FE8F029EC9DD2743738B522BA76D29DBF50157986C4C4EF0DA67E83A44804",
+            "trid": [
+                {
+                    "file_type": "XAR Archive",
+                    "probability": 100.0
+                }
+            ],
+            "names": [
+                "rise_of_nations_mac-13388.pkg"
+            ],
+            "last_modification_date": 1626392625,
+            "type_tag": "pkg",
+            "times_submitted": 5,
+            "total_votes": {
+                "harmless": 0,
+                "malicious": 1
+            },
+            "size": 222517,
+            "popular_threat_classification": {
+                "suggested_threat_label": "trojan.cpumeaner/shell",
+                "popular_threat_category": [
+                    {
+                        "count": 15,
+                        "value": "trojan"
+                    },
+                    {
+                        "count": 12,
+                        "value": "miner"
+                    },
+                    {
+                        "count": 2,
+                        "value": "downloader"
+                    }
+                ],
+                "popular_threat_name": [
+                    {
+                        "count": 7,
+                        "value": "cpumeaner"
+                    },
+                    {
+                        "count": 2,
+                        "value": "shell"
+                    }
+                ]
+            },
+            "last_submission_date": 1572593205,
+            "last_analysis_results": {
+                "Bkav": {
+                    "category": "undetected",
+                    "engine_name": "Bkav",
+                    "engine_version": "1.3.0.9899",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Lionic": {
+                    "category": "malicious",
+                    "engine_name": "AegisLab",
+                    "engine_version": "4.2",
+                    "result": "Trojan.Shell.Miner.a!c",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Elastic": {
+                    "category": "type-unsupported",
+                    "engine_name": "Elastic",
+                    "engine_version": "4.0.22",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210524"
+                },
+                "ClamAV": {
+                    "category": "malicious",
+                    "engine_name": "ClamAV",
+                    "engine_version": "0.103.2.0",
+                    "result": "Multios.Trojan.CryptocoinMiner-6448864-1",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "CMC": {
+                    "category": "undetected",
+                    "engine_name": "CMC",
+                    "engine_version": "2.10.2019.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210506"
+                },
+                "CAT-QuickHeal": {
+                    "category": "undetected",
+                    "engine_name": "CAT-QuickHeal",
+                    "engine_version": "14.00",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "McAfee": {
+                    "category": "undetected",
+                    "engine_name": "McAfee",
+                    "engine_version": "6.0.6.653",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Malwarebytes": {
+                    "category": "undetected",
+                    "engine_name": "Malwarebytes",
+                    "engine_version": "4.2.2.27",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Zillya": {
+                    "category": "undetected",
+                    "engine_name": "Zillya",
+                    "engine_version": "2.0.0.4391",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Paloalto": {
+                    "category": "type-unsupported",
+                    "engine_name": "Paloalto",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Sangfor": {
+                    "category": "undetected",
+                    "engine_name": "Sangfor",
+                    "engine_version": "2.9.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210616"
+                },
+                "K7AntiVirus": {
+                    "category": "undetected",
+                    "engine_name": "K7AntiVirus",
+                    "engine_version": "11.189.37488",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Alibaba": {
+                    "category": "type-unsupported",
+                    "engine_name": "Alibaba",
+                    "engine_version": "0.3.0.5",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190527"
+                },
+                "K7GW": {
+                    "category": "undetected",
+                    "engine_name": "K7GW",
+                    "engine_version": "11.189.37489",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Trustlook": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trustlook",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "BitDefenderTheta": {
+                    "category": "undetected",
+                    "engine_name": "BitDefenderTheta",
+                    "engine_version": "7.2.37796.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Cyren": {
+                    "category": "undetected",
+                    "engine_name": "Cyren",
+                    "engine_version": "6.3.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "SymantecMobileInsight": {
+                    "category": "type-unsupported",
+                    "engine_name": "SymantecMobileInsight",
+                    "engine_version": "2.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210126"
+                },
+                "Symantec": {
+                    "category": "malicious",
+                    "engine_name": "Symantec",
+                    "engine_version": "1.14.0.0",
+                    "result": "OSX.Coinbitminer",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "ESET-NOD32": {
+                    "category": "malicious",
+                    "engine_name": "ESET-NOD32",
+                    "engine_version": "23483",
+                    "result": "OSX/CoinMiner.A",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Baidu": {
+                    "category": "undetected",
+                    "engine_name": "Baidu",
+                    "engine_version": "1.0.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190318"
+                },
+                "TrendMicro-HouseCall": {
+                    "category": "undetected",
+                    "engine_name": "TrendMicro-HouseCall",
+                    "engine_version": "10.0.0.1040",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Avast": {
+                    "category": "malicious",
+                    "engine_name": "Avast",
+                    "engine_version": "21.1.5827.0",
+                    "result": "MacOS:Miner-A [Trj]",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Cynet": {
+                    "category": "malicious",
+                    "engine_name": "Cynet",
+                    "engine_version": "4.0.0.27",
+                    "result": "Malicious (score: 99)",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Kaspersky": {
+                    "category": "malicious",
+                    "engine_name": "Kaspersky",
+                    "engine_version": "21.0.1.45",
+                    "result": "HEUR:Trojan-Downloader.Shell.Miner.b",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "BitDefender": {
+                    "category": "malicious",
+                    "engine_name": "BitDefender",
+                    "engine_version": "7.2",
+                    "result": "Trojan.MAC.CpuMeaner.B",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "NANO-Antivirus": {
+                    "category": "malicious",
+                    "engine_name": "NANO-Antivirus",
+                    "engine_version": "1.0.146.25311",
+                    "result": "Trojan.Script.CoinMiner.fawmnx",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "ViRobot": {
+                    "category": "undetected",
+                    "engine_name": "ViRobot",
+                    "engine_version": "2014.3.20.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "MicroWorld-eScan": {
+                    "category": "malicious",
+                    "engine_name": "MicroWorld-eScan",
+                    "engine_version": "14.0.409.0",
+                    "result": "Trojan.MAC.CpuMeaner.B",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Tencent": {
+                    "category": "malicious",
+                    "engine_name": "Tencent",
+                    "engine_version": "1.0.0.1",
+                    "result": "Win32.Trojan-downloader.Miner.Piac",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Ad-Aware": {
+                    "category": "undetected",
+                    "engine_name": "Ad-Aware",
+                    "engine_version": "3.0.21.179",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Emsisoft": {
+                    "category": "malicious",
+                    "engine_name": "Emsisoft",
+                    "engine_version": "2018.12.0.1641",
+                    "result": "Trojan.MAC.CpuMeaner.B (B)",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Comodo": {
+                    "category": "malicious",
+                    "engine_name": "Comodo",
+                    "engine_version": "33632",
+                    "result": "Malware@#1fiyxg08nregs",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "F-Secure": {
+                    "category": "undetected",
+                    "engine_name": "F-Secure",
+                    "engine_version": "12.0.86.52",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "DrWeb": {
+                    "category": "malicious",
+                    "engine_name": "DrWeb",
+                    "engine_version": "7.0.49.9080",
+                    "result": "Mac.Trojan.BtcMine.4",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "VIPRE": {
+                    "category": "undetected",
+                    "engine_name": "VIPRE",
+                    "engine_version": "93380",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "TrendMicro": {
+                    "category": "undetected",
+                    "engine_name": "TrendMicro",
+                    "engine_version": "11.0.0.1006",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "McAfee-GW-Edition": {
+                    "category": "undetected",
+                    "engine_name": "McAfee-GW-Edition",
+                    "engine_version": "v2019.1.2+3728",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "SentinelOne": {
+                    "category": "type-unsupported",
+                    "engine_name": "SentinelOne",
+                    "engine_version": "5.1.0.5",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210518"
+                },
+                "Trapmine": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trapmine",
+                    "engine_version": "3.5.0.1023",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200727"
+                },
+                "FireEye": {
+                    "category": "malicious",
+                    "engine_name": "FireEye",
+                    "engine_version": "32.44.1.0",
+                    "result": "Trojan.MAC.CpuMeaner.B",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Sophos": {
+                    "category": "malicious",
+                    "engine_name": "Sophos",
+                    "engine_version": "1.0.2.0",
+                    "result": "OSX/CoinMine-AR",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "APEX": {
+                    "category": "type-unsupported",
+                    "engine_name": "APEX",
+                    "engine_version": "6.175",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210616"
+                },
+                "GData": {
+                    "category": "malicious",
+                    "engine_name": "GData",
+                    "engine_version": "A:25.29997B:27.23405",
+                    "result": "Trojan.MAC.CpuMeaner.B (3x)",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Jiangmin": {
+                    "category": "undetected",
+                    "engine_name": "Jiangmin",
+                    "engine_version": "16.0.100",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210617"
+                },
+                "Webroot": {
+                    "category": "type-unsupported",
+                    "engine_name": "Webroot",
+                    "engine_version": "1.0.0.403",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Avira": {
+                    "category": "malicious",
+                    "engine_name": "Avira",
+                    "engine_version": "8.3.3.12",
+                    "result": "OSX/CoinMiner.pdtmn",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "eGambit": {
+                    "category": "type-unsupported",
+                    "engine_name": "eGambit",
+                    "engine_version": null,
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Antiy-AVL": {
+                    "category": "undetected",
+                    "engine_name": "Antiy-AVL",
+                    "engine_version": "3.0.0.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Kingsoft": {
+                    "category": "undetected",
+                    "engine_name": "Kingsoft",
+                    "engine_version": "2017.9.26.565",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Gridinsoft": {
+                    "category": "undetected",
+                    "engine_name": "Gridinsoft",
+                    "engine_version": "1.0.44.137",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Arcabit": {
+                    "category": "malicious",
+                    "engine_name": "Arcabit",
+                    "engine_version": "1.0.0.886",
+                    "result": "Trojan.MAC.CpuMeaner.B",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "SUPERAntiSpyware": {
+                    "category": "undetected",
+                    "engine_name": "SUPERAntiSpyware",
+                    "engine_version": "5.6.0.1032",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210612"
+                },
+                "ZoneAlarm": {
+                    "category": "malicious",
+                    "engine_name": "ZoneAlarm",
+                    "engine_version": "1.0",
+                    "result": "not-a-virus:HEUR:RiskTool.OSX.Miner.f",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Avast-Mobile": {
+                    "category": "type-unsupported",
+                    "engine_name": "Avast-Mobile",
+                    "engine_version": "210618-00",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Microsoft": {
+                    "category": "malicious",
+                    "engine_name": "Microsoft",
+                    "engine_version": "1.1.18300.4",
+                    "result": "Trojan:MacOS/Coinminer!MSR",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "TACHYON": {
+                    "category": "undetected",
+                    "engine_name": "TACHYON",
+                    "engine_version": "2021-06-18.02",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "BitDefenderFalx": {
+                    "category": "type-unsupported",
+                    "engine_name": "BitDefenderFalx",
+                    "engine_version": "2.0.936",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210610"
+                },
+                "AhnLab-V3": {
+                    "category": "undetected",
+                    "engine_name": "AhnLab-V3",
+                    "engine_version": "3.20.2.10137",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Acronis": {
+                    "category": "type-unsupported",
+                    "engine_name": "Acronis",
+                    "engine_version": "1.1.1.82",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210512"
+                },
+                "VBA32": {
+                    "category": "undetected",
+                    "engine_name": "VBA32",
+                    "engine_version": "5.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "ALYac": {
+                    "category": "malicious",
+                    "engine_name": "ALYac",
+                    "engine_version": "1.1.3.1",
+                    "result": "Trojan.MAC.CpuMeaner.B",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "MAX": {
+                    "category": "malicious",
+                    "engine_name": "MAX",
+                    "engine_version": "2019.9.16.1",
+                    "result": "malware (ai score=100)",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Cylance": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cylance",
+                    "engine_version": "2.3.1.101",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Zoner": {
+                    "category": "undetected",
+                    "engine_name": "Zoner",
+                    "engine_version": "0.0.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210617"
+                },
+                "Rising": {
+                    "category": "undetected",
+                    "engine_name": "Rising",
+                    "engine_version": "25.0.0.26",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Yandex": {
+                    "category": "undetected",
+                    "engine_name": "Yandex",
+                    "engine_version": "5.5.2.24",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Ikarus": {
+                    "category": "malicious",
+                    "engine_name": "Ikarus",
+                    "engine_version": "0.1.5.2",
+                    "result": "Trojan.OSX.Coinminer",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "MaxSecure": {
+                    "category": "undetected",
+                    "engine_name": "MaxSecure",
+                    "engine_version": "1.0.0.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Fortinet": {
+                    "category": "undetected",
+                    "engine_name": "Fortinet",
+                    "engine_version": "6.2.142.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "AVG": {
+                    "category": "malicious",
+                    "engine_name": "AVG",
+                    "engine_version": "21.1.5827.0",
+                    "result": "MacOS:Miner-A [Trj]",
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "Cybereason": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cybereason",
+                    "engine_version": "1.2.449",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210330"
+                },
+                "Panda": {
+                    "category": "undetected",
+                    "engine_name": "Panda",
+                    "engine_version": "4.6.4.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                },
+                "CrowdStrike": {
+                    "category": "type-unsupported",
+                    "engine_name": "CrowdStrike",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": null
+                },
+                "Qihoo-360": {
+                    "category": "undetected",
+                    "engine_name": "Qihoo-360",
+                    "engine_version": "1.0.0.1120",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210618"
+                }
+            },
+            "crowdsourced_ids_stats": {
+                "info": 2,
+                "high": 0,
+                "medium": 2,
+                "low": 1
+            },
+            "sha256": "6e0ec2d6754138b5971f417176136a7becfd75359919a8a5a3b4233aeaade9b3",
+            "type_extension": "pkg",
+            "tags": [
+                "pkg"
+            ],
+            "crowdsourced_ids_results": [
+                {
+                    "rule_category": "Attempted Information Leak",
+                    "alert_severity": "medium",
+                    "rule_msg": "ET POLICY curl User-Agent Outbound",
+                    "rule_raw": "alert http $HOME_NET any -> $EXTERNAL_NET any (msg:\"ET POLICY curl User-Agent Outbound\"; flow:established,to_server; http.header; content:\"User-Agent|3a 20|curl/\"; nocase; reference:url,www.useragentstring.com/pages/useragentstring.php; classtype:attempted-recon; sid:2013028; rev:5; metadata:created_at 2011_06_14, updated_at 2020_04_22;)",
+                    "alert_context": [
+                        {
+                            "url": "http://storekit.xyz/api/v1/i.php?name=sample.pkg&status=1",
+                            "hostname": "storekit.xyz",
+                            "dest_ip": "75.2.18.233",
+                            "dest_port": 80
+                        }
+                    ],
+                    "rule_url": "https://rules.emergingthreats.net/",
+                    "rule_source": "Proofpoint Emerging Threats Open",
+                    "rule_references": [
+                        "https://www.useragentstring.com/pages/useragentstring.php"
+                    ],
+                    "rule_id": "1:2013028"
+                },
+                {
+                    "rule_category": "denial-of-service",
+                    "alert_severity": "medium",
+                    "rule_msg": "SERVER-OTHER Squid HTTP Vary response header denial of service attempt",
+                    "rule_raw": "alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any ( msg:\"SERVER-OTHER Squid HTTP Vary response header denial of service attempt\"; flow:to_client,established; http_header; content:\"Vary|3A|\"; content:!\"|0D 0A|\",within 250; metadata:policy max-detect-ips drop; service:http; reference:cve,2016-2569; reference:url,www.squid-cache.org/Advisories/SQUID-2016_2.txt; classtype:denial-of-service; sid:41379; rev:1; )",
+                    "alert_context": [
+                        {
+                            "src_ip": "75.2.18.233",
+                            "src_port": 80
+                        }
+                    ],
+                    "rule_url": "https://www.snort.org/downloads/#rule-downloads",
+                    "rule_source": "Snort registered user ruleset",
+                    "rule_references": [
+                        "https://cve.mitre.org/cgi-bin/cvename.cgi?name=2016-2569",
+                        "https://www.squid-cache.org/Advisories/SQUID-2016_2.txt"
+                    ],
+                    "rule_id": "1:41379"
+                },
+                {
+                    "rule_category": "not-suspicious",
+                    "alert_severity": "low",
+                    "rule_msg": "TAG_LOG_PKT",
+                    "rule_raw": "alert ( gid:2; sid:1; rev:1; msg:\"TAG_LOG_PKT\"; metadata:rule-type preproc; classtype:not-suspicious; )",
+                    "alert_context": [
+                        {
+                            "dest_ip": "173.223.193.88",
+                            "dest_port": 80
+                        }
+                    ],
+                    "rule_url": "https://www.snort.org/downloads/#rule-downloads",
+                    "rule_source": "Snort registered user ruleset",
+                    "rule_id": "2:1"
+                },
+                {
+                    "rule_category": "Potential Corporate Privacy Violation",
+                    "alert_severity": "info",
+                    "rule_msg": "ET POLICY Cryptocurrency Miner Checkin",
+                    "rule_raw": "alert tcp-pkt $HOME_NET any -> $EXTERNAL_NET any (msg:\"ET POLICY Cryptocurrency Miner Checkin\"; flow:established,to_server; content:\"|7b 22|id|22 3a|\"; nocase; depth:6; content:\"|22|jsonrpc|22 3a|\"; nocase; distance:0; content:\"|22 2c 22|method|22 3a 22|login|22 2c 22|params|22 3a|\"; fast_pattern; content:\"|22|pass|22 3a 22|\"; nocase; content:\"|22|agent|22 3a 22|\"; nocase; content:!\"<title\"; nocase; content:!\"<script\"; nocase; content:!\"<html\"; nocase; classtype:policy-violation; sid:2024792; rev:4; metadata:affected_product Windows_XP_Vista_7_8_10_Server_32_64_Bit, attack_target Client_Endpoint, created_at 2017_10_02, deployment Perimeter, former_category POLICY, signature_severity Minor, updated_at 2018_06_15;)",
+                    "alert_context": [
+                        {
+                            "dest_ip": "51.15.65.182",
+                            "dest_port": 14444
+                        }
+                    ],
+                    "rule_url": "https://rules.emergingthreats.net/",
+                    "rule_source": "Proofpoint Emerging Threats Open",
+                    "rule_id": "1:2024792"
+                },
+                {
+                    "rule_category": "policy-violation",
+                    "alert_severity": "info",
+                    "rule_msg": "PUA-OTHER Cryptocurrency Miner outbound connection attempt",
+                    "rule_raw": "alert tcp $HOME_NET any -> $EXTERNAL_NET any ( msg:\"PUA-OTHER Cryptocurrency Miner outbound connection attempt\"; flow:established,to_server; content:\"|7B 22|id|22 3A|\"; content:\"|22|jsonrpc|22 3A|\"; content:\"|22|method|22 3A 22|login|22 2C 22|params|22 3A 7B 22|login|22 3A|\"; content:\"|22|pass|22 3A|\"; content:\"|22|agent|22 3A|\"; metadata:policy balanced-ips drop,policy max-detect-ips drop,policy security-ips drop; reference:url,virustotal.com/en/file/2b83c69cf32c5f8f43ec2895ec9ac730bf73e1b2f37e44a3cf8ce814fb51f120/analysis; classtype:policy-violation; sid:46237; rev:1; )",
+                    "alert_context": [
+                        {
+                            "dest_ip": "51.15.65.182",
+                            "dest_port": 14444
+                        }
+                    ],
+                    "rule_url": "https://www.snort.org/downloads/#rule-downloads",
+                    "rule_source": "Snort registered user ruleset",
+                    "rule_references": [
+                        "https://virustotal.com/en/file/2b83c69cf32c5f8f43ec2895ec9ac730bf73e1b2f37e44a3cf8ce814fb51f120/analysis"
+                    ],
+                    "rule_id": "1:46237"
+                }
+            ],
+            "last_analysis_date": 1624020975,
+            "unique_sources": 3,
+            "first_submission_date": 1510949379,
+            "ssdeep": "6144:5gohERRwDLMskJ20thmyZzlDGD5n5H/sPm2:5hERRFsk20thm0RGDDUj",
+            "md5": "b9bab41b676af2560f7f95371a19ea4e",
+            "sha1": "350033f89751c1ca034e6630d172665a2b9c40c6",
+            "magic": "xar archive version 1, SHA-1 checksum",
+            "last_analysis_stats": {
+                "harmless": 0,
+                "type-unsupported": 16,
+                "suspicious": 0,
+                "confirmed-timeout": 0,
+                "timeout": 0,
+                "failure": 0,
+                "malicious": 25,
+                "undetected": 34
+            },
+            "meaningful_name": "rise_of_nations_mac-13388.pkg",
+            "reputation": -53
+        },
+        "type": "file",
+        "id": "6e0ec2d6754138b5971f417176136a7becfd75359919a8a5a3b4233aeaade9b3",
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/files/6e0ec2d6754138b5971f417176136a7becfd75359919a8a5a3b4233aeaade9b3"
+        }
+    }
+}

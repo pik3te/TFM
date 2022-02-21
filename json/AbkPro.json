@@ -1,0 +1,1182 @@
+{
+    "data": {
+        "attributes": {
+            "type_description": "Mach-O",
+            "tlsh": "T144842A43B70500EBCE8F26F6024B439F9F35E0629972DB81F958D65ACEBB8905E432D5",
+            "vhash": "0fbf2c4a9b48d277073137110a402734",
+            "trid": [
+                {
+                    "file_type": "Mac OS X Mach-O universal Dynamically linked shared Library",
+                    "probability": 82.2
+                },
+                {
+                    "file_type": "Mac OS X Universal Binary (generic)",
+                    "probability": 17.7
+                }
+            ],
+            "names": [
+                "AbkPro",
+                "abkpro",
+                "AbkPro.exe"
+            ],
+            "last_modification_date": 1637095099,
+            "type_tag": "macho",
+            "times_submitted": 9,
+            "total_votes": {
+                "harmless": 0,
+                "malicious": 0
+            },
+            "size": 389852,
+            "popular_threat_classification": {
+                "suggested_threat_label": "trojan.aobokeylogger/keylogger",
+                "popular_threat_category": [
+                    {
+                        "count": 7,
+                        "value": "trojan"
+                    },
+                    {
+                        "count": 3,
+                        "value": "virus"
+                    },
+                    {
+                        "count": 3,
+                        "value": "pua"
+                    }
+                ],
+                "popular_threat_name": [
+                    {
+                        "count": 15,
+                        "value": "aobokeylogger"
+                    },
+                    {
+                        "count": 5,
+                        "value": "keylogger"
+                    },
+                    {
+                        "count": 3,
+                        "value": "monitor"
+                    }
+                ]
+            },
+            "last_submission_date": 1577241262,
+            "last_analysis_results": {
+                "Bkav": {
+                    "category": "undetected",
+                    "engine_name": "Bkav",
+                    "engine_version": "1.3.0.9899",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Lionic": {
+                    "category": "malicious",
+                    "engine_name": "AegisLab",
+                    "engine_version": "4.2",
+                    "result": "Riskware.OSX.LogKext.1!c",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Elastic": {
+                    "category": "malicious",
+                    "engine_name": "Elastic",
+                    "engine_version": "4.0.17",
+                    "result": "malicious (high confidence)",
+                    "method": "blacklist",
+                    "engine_update": "20210217"
+                },
+                "Cynet": {
+                    "category": "malicious",
+                    "engine_name": "Cynet",
+                    "engine_version": "4.0.0.25",
+                    "result": "Malicious (score: 85)",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "CMC": {
+                    "category": "undetected",
+                    "engine_name": "CMC",
+                    "engine_version": "2.10.2019.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210308"
+                },
+                "CAT-QuickHeal": {
+                    "category": "malicious",
+                    "engine_name": "CAT-QuickHeal",
+                    "engine_version": "14.00",
+                    "result": "Trojan.MacOSX.Keylogger.C",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "ALYac": {
+                    "category": "malicious",
+                    "engine_name": "ALYac",
+                    "engine_version": "1.1.3.1",
+                    "result": "Gen:Variant.Application.MAC.OSX.AoboKeylogger.1",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Malwarebytes": {
+                    "category": "undetected",
+                    "engine_name": "Malwarebytes",
+                    "engine_version": "4.2.1.18",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210310"
+                },
+                "Zillya": {
+                    "category": "malicious",
+                    "engine_name": "Zillya",
+                    "engine_version": "2.0.0.4314",
+                    "result": "Trojan.AoboKeylog.OSX.2",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Paloalto": {
+                    "category": "type-unsupported",
+                    "engine_name": "Paloalto",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Sangfor": {
+                    "category": "undetected",
+                    "engine_name": "Sangfor",
+                    "engine_version": "2.9.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "K7AntiVirus": {
+                    "category": "undetected",
+                    "engine_name": "K7AntiVirus",
+                    "engine_version": "11.169.36686",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Alibaba": {
+                    "category": "type-unsupported",
+                    "engine_name": "Alibaba",
+                    "engine_version": "0.3.0.5",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190527"
+                },
+                "K7GW": {
+                    "category": "undetected",
+                    "engine_name": "K7GW",
+                    "engine_version": "11.169.36687",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Trustlook": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trustlook",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "BitDefenderTheta": {
+                    "category": "undetected",
+                    "engine_name": "BitDefenderTheta",
+                    "engine_version": "7.2.37796.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210304"
+                },
+                "Cyren": {
+                    "category": "undetected",
+                    "engine_name": "Cyren",
+                    "engine_version": "6.3.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "SymantecMobileInsight": {
+                    "category": "type-unsupported",
+                    "engine_name": "SymantecMobileInsight",
+                    "engine_version": "2.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210126"
+                },
+                "ESET-NOD32": {
+                    "category": "malicious",
+                    "engine_name": "ESET-NOD32",
+                    "engine_version": "22948",
+                    "result": "a variant of OSX/KeyLogger.AoboKeylogger.E",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Baidu": {
+                    "category": "undetected",
+                    "engine_name": "Baidu",
+                    "engine_version": "1.0.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190318"
+                },
+                "TrendMicro-HouseCall": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro-HouseCall",
+                    "engine_version": "10.0.0.1040",
+                    "result": "TROJ_FRS.0NA103CC19",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Avast": {
+                    "category": "malicious",
+                    "engine_name": "Avast",
+                    "engine_version": "21.1.5827.0",
+                    "result": "MacOS:AoboKeylogger-D [PUP]",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "ClamAV": {
+                    "category": "undetected",
+                    "engine_name": "ClamAV",
+                    "engine_version": "0.103.1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Kaspersky": {
+                    "category": "malicious",
+                    "engine_name": "Kaspersky",
+                    "engine_version": "15.0.1.13",
+                    "result": "not-a-virus:HEUR:Monitor.OSX.LogKext.r",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "BitDefender": {
+                    "category": "malicious",
+                    "engine_name": "BitDefender",
+                    "engine_version": "7.2",
+                    "result": "Gen:Variant.Application.MAC.OSX.AoboKeylogger.1",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "NANO-Antivirus": {
+                    "category": "malicious",
+                    "engine_name": "NANO-Antivirus",
+                    "engine_version": "1.0.146.25265",
+                    "result": "Riskware.Mac.Keylogger.efpskk",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "ViRobot": {
+                    "category": "undetected",
+                    "engine_name": "ViRobot",
+                    "engine_version": "2014.3.20.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "MicroWorld-eScan": {
+                    "category": "malicious",
+                    "engine_name": "MicroWorld-eScan",
+                    "engine_version": "14.0.409.0",
+                    "result": "Gen:Variant.Application.MAC.OSX.AoboKeylogger.1",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "APEX": {
+                    "category": "type-unsupported",
+                    "engine_name": "APEX",
+                    "engine_version": "6.141",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210310"
+                },
+                "Tencent": {
+                    "category": "malicious",
+                    "engine_name": "Tencent",
+                    "engine_version": "1.0.0.1",
+                    "result": "Trojan.OSX.AdoKeylogger.10000035",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Ad-Aware": {
+                    "category": "malicious",
+                    "engine_name": "Ad-Aware",
+                    "engine_version": "3.0.16.117",
+                    "result": "Gen:Variant.Application.MAC.OSX.AoboKeylogger.1",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Emsisoft": {
+                    "category": "malicious",
+                    "engine_name": "Emsisoft",
+                    "engine_version": "2018.12.0.1641",
+                    "result": "Gen:Variant.Application.MAC.OSX.AoboKeylogger.1 (B)",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Comodo": {
+                    "category": "malicious",
+                    "engine_name": "Comodo",
+                    "engine_version": "33336",
+                    "result": "Malware@#3349gnrv4b6w",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "F-Secure": {
+                    "category": "malicious",
+                    "engine_name": "F-Secure",
+                    "engine_version": "12.0.86.52",
+                    "result": "PrivacyRisk.SPR/OSX.AoboKeylog",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "DrWeb": {
+                    "category": "malicious",
+                    "engine_name": "DrWeb",
+                    "engine_version": "7.0.49.9080",
+                    "result": "Program.Keylogger.75",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "VIPRE": {
+                    "category": "undetected",
+                    "engine_name": "VIPRE",
+                    "engine_version": "91012",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "TrendMicro": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro",
+                    "engine_version": "11.0.0.1006",
+                    "result": "TROJ_FRS.0NA103CC19",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "McAfee-GW-Edition": {
+                    "category": "malicious",
+                    "engine_name": "McAfee-GW-Edition",
+                    "engine_version": "v2019.1.2+3728",
+                    "result": "OSX/AoboKeyLogger",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Trapmine": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trapmine",
+                    "engine_version": "3.5.0.1023",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200727"
+                },
+                "FireEye": {
+                    "category": "malicious",
+                    "engine_name": "FireEye",
+                    "engine_version": "32.44.1.0",
+                    "result": "Gen:Variant.Application.MAC.OSX.AoboKeylogger.1",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Sophos": {
+                    "category": "malicious",
+                    "engine_name": "Sophos",
+                    "engine_version": "1.0.2.0",
+                    "result": "Aobo Keylogger (PUA)",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Ikarus": {
+                    "category": "undetected",
+                    "engine_name": "Ikarus",
+                    "engine_version": "0.1.5.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Avast-Mobile": {
+                    "category": "type-unsupported",
+                    "engine_name": "Avast-Mobile",
+                    "engine_version": "210311-00",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Webroot": {
+                    "category": "type-unsupported",
+                    "engine_name": "Webroot",
+                    "engine_version": "1.0.0.403",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Avira": {
+                    "category": "malicious",
+                    "engine_name": "Avira",
+                    "engine_version": "8.3.3.12",
+                    "result": "SPR/OSX.AoboKeylog.A",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "eGambit": {
+                    "category": "type-unsupported",
+                    "engine_name": "eGambit",
+                    "engine_version": null,
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Antiy-AVL": {
+                    "category": "undetected",
+                    "engine_name": "Antiy-AVL",
+                    "engine_version": "3.0.0.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Kingsoft": {
+                    "category": "undetected",
+                    "engine_name": "Kingsoft",
+                    "engine_version": "2017.9.26.565",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Microsoft": {
+                    "category": "malicious",
+                    "engine_name": "Microsoft",
+                    "engine_version": "1.1.17900.7",
+                    "result": "PUA:MacOS/AoboKey",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Gridinsoft": {
+                    "category": "undetected",
+                    "engine_name": "Gridinsoft",
+                    "engine_version": "1.0.31.122",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Arcabit": {
+                    "category": "malicious",
+                    "engine_name": "Arcabit",
+                    "engine_version": "1.0.0.881",
+                    "result": "Trojan.Application.MAC.OSX.AoboKeylogger.1",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "SUPERAntiSpyware": {
+                    "category": "undetected",
+                    "engine_name": "SUPERAntiSpyware",
+                    "engine_version": "5.6.0.1032",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210305"
+                },
+                "ZoneAlarm": {
+                    "category": "malicious",
+                    "engine_name": "ZoneAlarm",
+                    "engine_version": "1.0",
+                    "result": "not-a-virus:HEUR:Monitor.OSX.LogKext.r",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "GData": {
+                    "category": "malicious",
+                    "engine_name": "GData",
+                    "engine_version": "A:25.28907B:27.22253",
+                    "result": "Gen:Variant.Application.MAC.OSX.AoboKeylogger.1 (2x)",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "TACHYON": {
+                    "category": "undetected",
+                    "engine_name": "TACHYON",
+                    "engine_version": "2021-03-11.02",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "BitDefenderFalx": {
+                    "category": "type-unsupported",
+                    "engine_name": "BitDefenderFalx",
+                    "engine_version": "2.0.936",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20200916"
+                },
+                "AhnLab-V3": {
+                    "category": "malicious",
+                    "engine_name": "AhnLab-V3",
+                    "engine_version": "3.19.5.10130",
+                    "result": "OSX32-AppCare/Aobokeylogger",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Acronis": {
+                    "category": "undetected",
+                    "engine_name": "Acronis",
+                    "engine_version": "1.1.1.81",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210211"
+                },
+                "McAfee": {
+                    "category": "malicious",
+                    "engine_name": "McAfee",
+                    "engine_version": "6.0.6.653",
+                    "result": "OSX/AoboKeyLogger",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "MAX": {
+                    "category": "malicious",
+                    "engine_name": "MAX",
+                    "engine_version": "2019.9.16.1",
+                    "result": "malware (ai score=100)",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "VBA32": {
+                    "category": "undetected",
+                    "engine_name": "VBA32",
+                    "engine_version": "4.4.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Cylance": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cylance",
+                    "engine_version": "2.3.1.101",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Zoner": {
+                    "category": "undetected",
+                    "engine_name": "Zoner",
+                    "engine_version": "0.0.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210310"
+                },
+                "Rising": {
+                    "category": "undetected",
+                    "engine_name": "Rising",
+                    "engine_version": "25.0.0.26",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Yandex": {
+                    "category": "undetected",
+                    "engine_name": "Yandex",
+                    "engine_version": "5.5.2.24",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210309"
+                },
+                "SentinelOne": {
+                    "category": "undetected",
+                    "engine_name": "SentinelOne",
+                    "engine_version": "5.0.0.20",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210215"
+                },
+                "MaxSecure": {
+                    "category": "malicious",
+                    "engine_name": "MaxSecure",
+                    "engine_version": "1.0.0.1",
+                    "result": "Trojan.Malware.9524854.susgen",
+                    "method": "blacklist",
+                    "engine_update": "20210306"
+                },
+                "Fortinet": {
+                    "category": "malicious",
+                    "engine_name": "Fortinet",
+                    "engine_version": "6.2.142.0",
+                    "result": "Riskware/AoboKeylogger!OSX",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "AVG": {
+                    "category": "malicious",
+                    "engine_name": "AVG",
+                    "engine_version": "21.1.5827.0",
+                    "result": "MacOS:AoboKeylogger-D [PUP]",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "Cybereason": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cybereason",
+                    "engine_version": null,
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20180308"
+                },
+                "Panda": {
+                    "category": "undetected",
+                    "engine_name": "Panda",
+                    "engine_version": "4.6.4.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                },
+                "CrowdStrike": {
+                    "category": "type-unsupported",
+                    "engine_name": "CrowdStrike",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20180202"
+                },
+                "Qihoo-360": {
+                    "category": "malicious",
+                    "engine_name": "Qihoo-360",
+                    "engine_version": "1.0.0.1120",
+                    "result": "Mac/Virus.Monitor.4d9",
+                    "method": "blacklist",
+                    "engine_update": "20210311"
+                }
+            },
+            "sha256": "2b50146c20621741642d039f1e3218ff68e5dbfde8bb9edaa0a560ca890f0970",
+            "tags": [
+                "multi-arch",
+                "macho"
+            ],
+            "last_analysis_date": 1615496396,
+            "unique_sources": 5,
+            "first_submission_date": 1342900791,
+            "macho_info": [
+                {
+                    "libs": [
+                        "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+                        "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+                        "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+                        "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+                        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+                        "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+                        "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+                        "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+                        "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+                        "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+                        "/usr/lib/libSystem.B.dylib",
+                        "/usr/lib/libgcc_s.1.dylib",
+                        "@executable_path/../Frameworks/Connection.framework/Versions/A/Connection",
+                        "@executable_path/../Frameworks/EDCommon.framework/Versions/A/EDCommon",
+                        "@executable_path/../Frameworks/EDMessage.framework/Versions/A/EDMessage",
+                        "@executable_path/../Frameworks/ShortcutRecorder.framework/Versions/A/ShortcutRecorder",
+                        "@executable_path/../Frameworks/libsqlite3.7.5.dylib"
+                    ],
+                    "headers": {
+                        "cpu_subtype": "I386_ALL",
+                        "magic": "0xfeedface",
+                        "file_type": "executable file",
+                        "num_cmds": 28,
+                        "size_cmds": 3820,
+                        "flags": [
+                            "DYLDLINK",
+                            "NOUNDEFS",
+                            "TWOLEVEL"
+                        ],
+                        "cpu_type": "i386",
+                        "entrypoint": "0x2820"
+                    },
+                    "commands": [
+                        {
+                            "type": "LC_SYMTAB"
+                        },
+                        {
+                            "type": "LC_DYSYMTAB"
+                        },
+                        {
+                            "type": "LC_LOAD_DYLINKER"
+                        },
+                        {
+                            "type": "LC_UUID"
+                        },
+                        {
+                            "type": "LC_UNIXTHREAD"
+                        },
+                        {
+                            "type": "LC_LOAD_DYLIB"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "name": "__PAGEZERO",
+                            "fileoff": "0x0",
+                            "vmsize": "0x1000",
+                            "filesize": "0x0",
+                            "vmaddr": "0x0",
+                            "sections": []
+                        },
+                        {
+                            "name": "__TEXT",
+                            "fileoff": "0x0",
+                            "vmsize": "0x1d000",
+                            "filesize": "0x1d000",
+                            "vmaddr": "0x1000",
+                            "sections": [
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR",
+                                        "SECTION_ATTRIBUTES_SYS"
+                                    ],
+                                    "name": "__text"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__cstring"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__const"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__unwind_info"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__DATA",
+                            "fileoff": "0x1d000",
+                            "vmsize": "0x2000",
+                            "filesize": "0x2000",
+                            "vmaddr": "0x1e000",
+                            "sections": [
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__dyld"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__cfstring"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__data"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [],
+                                    "name": "__common"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [],
+                                    "name": "__bss"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__OBJC",
+                            "fileoff": "0x1f000",
+                            "vmsize": "0x3000",
+                            "filesize": "0x3000",
+                            "vmaddr": "0x20000",
+                            "sections": [
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [
+                                        "S_8BYTE_LITERALS"
+                                    ],
+                                    "name": "__message_refs"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [
+                                        "S_8BYTE_LITERALS"
+                                    ],
+                                    "name": "__cls_refs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__module_info"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__cat_cls_meth"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__class"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__meta_class"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__inst_meth"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__category"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__instance_vars"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__symbols"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__cls_meth"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__cat_inst_meth"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__protocol"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__image_info"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__IMPORT",
+                            "fileoff": "0x22000",
+                            "vmsize": "0x1000",
+                            "filesize": "0x1000",
+                            "vmaddr": "0x23000",
+                            "sections": [
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [
+                                        "S_8BYTE_LITERALS"
+                                    ],
+                                    "name": "__pointers"
+                                },
+                                {
+                                    "type": "S_SYMBOL_STUBS",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__jump_table"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__LINKEDIT",
+                            "fileoff": "0x23000",
+                            "vmsize": "0xd000",
+                            "filesize": "0xc0f4",
+                            "vmaddr": "0x24000",
+                            "sections": []
+                        }
+                    ]
+                },
+                {
+                    "headers": {
+                        "cpu_subtype": "0",
+                        "magic": "0xcefaedfe",
+                        "file_type": "0x2000000",
+                        "num_cmds": 452984832,
+                        "size_cmds": 336527360,
+                        "flags": [
+                            "0x84000000",
+                            "NO_HEAP_EXECUTION"
+                        ],
+                        "cpu_type": "0x12000000"
+                    },
+                    "commands": [
+                        {
+                            "type": "0x1000000"
+                        },
+                        {
+                            "type": "0x41505f5f"
+                        },
+                        {
+                            "type": "0x4f52"
+                        },
+                        {
+                            "type": "0x0"
+                        },
+                        {
+                            "type": "0x45545f5f"
+                        },
+                        {
+                            "type": "0x100000"
+                        },
+                        {
+                            "type": "0x7000000"
+                        },
+                        {
+                            "type": "0x4000000"
+                        },
+                        {
+                            "type": "0x65745f5f"
+                        },
+                        {
+                            "type": "0x801f0000"
+                        },
+                        {
+                            "type": "0x800f0000"
+                        },
+                        {
+                            "type": "0x40080"
+                        },
+                        {
+                            "type": "0x6c6f626d"
+                        },
+                        {
+                            "type": "0x3162"
+                        },
+                        {
+                            "type": "0x5458"
+                        },
+                        {
+                            "type": "0xd0050000"
+                        },
+                        {
+                            "type": "0x2000000"
+                        },
+                        {
+                            "type": "0x73635f5f"
+                        },
+                        {
+                            "type": "0x67"
+                        },
+                        {
+                            "type": "0xd0560100"
+                        },
+                        {
+                            "type": "0xd0460100"
+                        },
+                        {
+                            "type": "0x74736e"
+                        },
+                        {
+                            "type": "0xc8280000"
+                        },
+                        {
+                            "type": "0x3000000"
+                        },
+                        {
+                            "type": "0x41445f5f"
+                        },
+                        {
+                            "type": "0xe00100"
+                        },
+                        {
+                            "type": "0xd00100"
+                        },
+                        {
+                            "type": "0x79645f5f"
+                        },
+                        {
+                            "type": "0x6d79735f"
+                        },
+                        {
+                            "type": "0x727470"
+                        },
+                        {
+                            "type": "0x4154"
+                        },
+                        {
+                            "type": "0x64000000"
+                        },
+                        {
+                            "type": "0x5d000000"
+                        },
+                        {
+                            "type": "0x616c5f5f"
+                        },
+                        {
+                            "type": "0x5f6c6f62"
+                        },
+                        {
+                            "type": "0x6ce00100"
+                        },
+                        {
+                            "type": "0x6cd00100"
+                        },
+                        {
+                            "type": "0x69727473"
+                        },
+                        {
+                            "type": "0xf0140000"
+                        },
+                        {
+                            "type": "0x61645f5f"
+                        },
+                        {
+                            "type": "0xd0f60100"
+                        },
+                        {
+                            "type": "0xd0e60100"
+                        },
+                        {
+                            "type": "0x6e6f6d6d"
+                        },
+                        {
+                            "type": "0x44000000"
+                        },
+                        {
+                            "type": "0x73625f5f"
+                        },
+                        {
+                            "type": "0x4cf70100"
+                        },
+                        {
+                            "type": "0xf0030000"
+                        },
+                        {
+                            "type": "0x434a"
+                        },
+                        {
+                            "type": "0x300000"
+                        },
+                        {
+                            "type": "0x67617373"
+                        },
+                        {
+                            "type": "0x7366"
+                        },
+                        {
+                            "type": "0x80060000"
+                        },
+                        {
+                            "type": "0x6c635f5f"
+                        },
+                        {
+                            "type": "0x424f5f5f"
+                        },
+                        {
+                            "type": "0x80060200"
+                        },
+                        {
+                            "type": "0x80f60100"
+                        },
+                        {
+                            "type": "0x5000000"
+                        },
+                        {
+                            "type": "0x656c7564"
+                        },
+                        {
+                            "type": "0x6f"
+                        },
+                        {
+                            "type": "0xe0000000"
+                        },
+                        {
+                            "type": "0x61635f5f"
+                        },
+                        {
+                            "type": "0x656d5f73"
+                        },
+                        {
+                            "type": "0x40080200"
+                        },
+                        {
+                            "type": "0x40f80100"
+                        },
+                        {
+                            "type": "0x737361"
+                        },
+                        {
+                            "type": "0x40020000"
+                        },
+                        {
+                            "type": "0x656d5f5f"
+                        },
+                        {
+                            "type": "0x7373616c"
+                        },
+                        {
+                            "type": "0xb40a0200"
+                        },
+                        {
+                            "type": "0xb4fa0100"
+                        },
+                        {
+                            "type": "0x6d5f7473"
+                        },
+                        {
+                            "type": "0x9c0a0000"
+                        },
+                        {
+                            "type": "0x7972"
+                        },
+                        {
+                            "type": "0x90170200"
+                        },
+                        {
+                            "type": "0x90070200"
+                        },
+                        {
+                            "type": "0x6e617473"
+                        },
+                        {
+                            "type": "0x737261"
+                        },
+                        {
+                            "type": "0xe8040000"
+                        },
+                        {
+                            "type": "0x79735f5f"
+                        },
+                        {
+                            "type": "0x73"
+                        }
+                    ]
+                }
+            ],
+            "ssdeep": "6144:kzk27cYXa0IVvNhLpwo9rKR4Sb/tdeDqVEDw6mqU7oy91bfeO6mbQeO6lGMKXRhr:kz/V592E6mqOnGMKXRwRLRiTUO",
+            "md5": "2c4df4eae6cea091cd4bd90ea211950e",
+            "sha1": "29f2e47dc0bab4eb147cb2bf6d7476fd5daf0811",
+            "magic": "Mach-O fat file with 2 architectures",
+            "last_analysis_stats": {
+                "harmless": 0,
+                "type-unsupported": 13,
+                "suspicious": 0,
+                "confirmed-timeout": 0,
+                "timeout": 0,
+                "failure": 0,
+                "malicious": 35,
+                "undetected": 25
+            },
+            "meaningful_name": "AbkPro",
+            "reputation": 0
+        },
+        "type": "file",
+        "id": "2b50146c20621741642d039f1e3218ff68e5dbfde8bb9edaa0a560ca890f0970",
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/files/2b50146c20621741642d039f1e3218ff68e5dbfde8bb9edaa0a560ca890f0970"
+        }
+    }
+}

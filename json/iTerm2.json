@@ -1,0 +1,1373 @@
+{
+    "data": {
+        "attributes": {
+            "type_description": "Mach-O",
+            "tlsh": "T180875B2BEB18042BC2A993789B2E072D5255E252DA3553473C95C04DBFD8FE10F6FBA1",
+            "vhash": "17a55fbe1267b46dcbdbe744c9b6aaa7",
+            "trid": [
+                {
+                    "file_type": "Mac OS X Mach-O universal Dynamically linked shared Library",
+                    "probability": 69.8
+                },
+                {
+                    "file_type": "Mac OS X Universal Binary (generic)",
+                    "probability": 15.0
+                },
+                {
+                    "file_type": "Java bytecode",
+                    "probability": 15.0
+                }
+            ],
+            "names": [
+                "iTerm2"
+            ],
+            "signature_info": {
+                "Signed Time": "Sep 9, 2021 at 4:24:49 PM",
+                "CandidateCDHash sha256": "19a59ad78de464ebe36b647d57d0e7443d70515f",
+                "CMSDigestType": "2",
+                "Signature size": "4770",
+                "Hash choices": "sha256",
+                "Format": "Mach-O universal (x86_64 arm64)",
+                "CDHash": "19a59ad78de464ebe36b647d57d0e7443d70515f",
+                "signers": "Jun Bi; Apple Inc.; Apple Inc.",
+                "Info.plist": "not bound",
+                "Page size": "4096",
+                "CandidateCDHashFull sha256": "19a59ad78de464ebe36b647d57d0e7443d70515fdfbb62e81ef45885432d53a2",
+                "Authority": "Apple Root CA",
+                "Sealed Resources": "none",
+                "TeamIdentifier": "AQPZ6F3ASY",
+                "verified": "MissingPlist",
+                "Identifier": "com.googlecode.iterm2",
+                "signers details": [
+                    {
+                        "valid usage": "",
+                        "status": "NotTrusted",
+                        "name": "Jun Bi",
+                        "algorithm": "sha256WithRSAEncryption",
+                        "valid from": "09:16 AM 05/05/2021",
+                        "valid to": "09:16 AM 05/05/2022",
+                        "serial number": "32 8D 58 B6 D6 86 54 DC A7 7A 5F 27 32 F5 2D D3",
+                        "cert issuer": "Apple Inc.",
+                        "thumbprint": "62C1554783670F8A235722FDB0D46C418940F7E5"
+                    },
+                    {
+                        "valid usage": "",
+                        "status": "Valid",
+                        "name": "Apple Inc.",
+                        "algorithm": "sha256WithRSAEncryption",
+                        "valid from": "06:13 PM 02/19/2020",
+                        "valid to": "12:00 AM 02/20/2030",
+                        "serial number": "7C AF 69 0A 25 B7 39 FE 7B 9B 44 7A C1 78 C5 EE",
+                        "cert issuer": "Apple Inc.",
+                        "thumbprint": "06EC06599F4ED0027CC58956B4D3AC1255114F35"
+                    },
+                    {
+                        "valid usage": "",
+                        "status": "Valid",
+                        "name": "Apple Inc.",
+                        "algorithm": "sha1WithRSAEncryption",
+                        "valid from": "09:40 PM 04/25/2006",
+                        "valid to": "09:40 PM 02/09/2035",
+                        "serial number": "2",
+                        "cert issuer": "Apple Inc.",
+                        "thumbprint": "611E5B662C593A08FF58D14AE22452D198DF6C60"
+                    }
+                ],
+                "CMSDigest": "19a59ad78de464ebe36b647d57d0e7443d70515fdfbb62e81ef45885432d53a2"
+            },
+            "last_modification_date": 1641405900,
+            "type_tag": "macho",
+            "times_submitted": 1,
+            "total_votes": {
+                "harmless": 0,
+                "malicious": 0
+            },
+            "size": 36445088,
+            "popular_threat_classification": {
+                "suggested_threat_label": "trojan.zuru/spyzuru",
+                "popular_threat_category": [
+                    {
+                        "count": 16,
+                        "value": "trojan"
+                    }
+                ],
+                "popular_threat_name": [
+                    {
+                        "count": 19,
+                        "value": "zuru"
+                    },
+                    {
+                        "count": 2,
+                        "value": "spyzuru"
+                    }
+                ]
+            },
+            "last_submission_date": 1631436458,
+            "last_analysis_results": {
+                "Bkav": {
+                    "category": "malicious",
+                    "engine_name": "Bkav",
+                    "engine_version": "1.3.0.9899",
+                    "result": "ASP.Webshell",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Lionic": {
+                    "category": "malicious",
+                    "engine_name": "Lionic",
+                    "engine_version": "4.2",
+                    "result": "Trojan.OSX.Zuru.4!c",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Elastic": {
+                    "category": "type-unsupported",
+                    "engine_name": "Elastic",
+                    "engine_version": "4.0.32",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20211223"
+                },
+                "Cynet": {
+                    "category": "malicious",
+                    "engine_name": "Cynet",
+                    "engine_version": "4.0.0.27",
+                    "result": "Malicious (score: 99)",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "CMC": {
+                    "category": "undetected",
+                    "engine_name": "CMC",
+                    "engine_version": "2.10.2019.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20211026"
+                },
+                "CAT-QuickHeal": {
+                    "category": "undetected",
+                    "engine_name": "CAT-QuickHeal",
+                    "engine_version": "14.00",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "McAfee": {
+                    "category": "malicious",
+                    "engine_name": "McAfee",
+                    "engine_version": "6.0.6.653",
+                    "result": "OSX-SpyZuru",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Malwarebytes": {
+                    "category": "undetected",
+                    "engine_name": "Malwarebytes",
+                    "engine_version": "4.2.2.27",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "VIPRE": {
+                    "category": "undetected",
+                    "engine_name": "VIPRE",
+                    "engine_version": "98160",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Paloalto": {
+                    "category": "type-unsupported",
+                    "engine_name": "Paloalto",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Sangfor": {
+                    "category": "undetected",
+                    "engine_name": "Sangfor",
+                    "engine_version": "2.9.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20211224"
+                },
+                "K7AntiVirus": {
+                    "category": "undetected",
+                    "engine_name": "K7AntiVirus",
+                    "engine_version": "11.239.40177",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Alibaba": {
+                    "category": "type-unsupported",
+                    "engine_name": "Alibaba",
+                    "engine_version": "0.3.0.5",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190527"
+                },
+                "K7GW": {
+                    "category": "undetected",
+                    "engine_name": "K7GW",
+                    "engine_version": "11.239.40180",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Trustlook": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trustlook",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Baidu": {
+                    "category": "undetected",
+                    "engine_name": "Baidu",
+                    "engine_version": "1.0.0.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20190318"
+                },
+                "VirIT": {
+                    "category": "undetected",
+                    "engine_name": "VirIT",
+                    "engine_version": "9.5.106",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Cyren": {
+                    "category": "malicious",
+                    "engine_name": "Cyren",
+                    "engine_version": "6.5.1.2",
+                    "result": "MacOS/ZuRu.C",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "SymantecMobileInsight": {
+                    "category": "failure",
+                    "engine_name": "SymantecMobileInsight",
+                    "engine_version": "2.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20211119"
+                },
+                "Symantec": {
+                    "category": "malicious",
+                    "engine_name": "Symantec",
+                    "engine_version": "1.16.0.0",
+                    "result": "OSX.Trojan.Gen",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "ESET-NOD32": {
+                    "category": "malicious",
+                    "engine_name": "ESET-NOD32",
+                    "engine_version": "24571",
+                    "result": "a variant of OSX/Spy.ZuRu.A",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "APEX": {
+                    "category": "type-unsupported",
+                    "engine_name": "APEX",
+                    "engine_version": "6.246",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220104"
+                },
+                "TrendMicro-HouseCall": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro-HouseCall",
+                    "engine_version": "10.0.0.1040",
+                    "result": "TROJ_FRS.0NA103IR21",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Avast": {
+                    "category": "malicious",
+                    "engine_name": "Avast",
+                    "engine_version": "21.1.5827.0",
+                    "result": "MacOS:ZuRu-A [Trj]",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "ClamAV": {
+                    "category": "undetected",
+                    "engine_name": "ClamAV",
+                    "engine_version": "0.104.1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Kaspersky": {
+                    "category": "malicious",
+                    "engine_name": "Kaspersky",
+                    "engine_version": "21.0.1.45",
+                    "result": "Trojan.OSX.Zuru.gen",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "BitDefender": {
+                    "category": "malicious",
+                    "engine_name": "BitDefender",
+                    "engine_version": "7.2",
+                    "result": "Trojan.MAC.ZuRu.B",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "NANO-Antivirus": {
+                    "category": "undetected",
+                    "engine_name": "NANO-Antivirus",
+                    "engine_version": "1.0.146.25520",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "ViRobot": {
+                    "category": "undetected",
+                    "engine_name": "ViRobot",
+                    "engine_version": "2014.3.20.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "MicroWorld-eScan": {
+                    "category": "undetected",
+                    "engine_name": "MicroWorld-eScan",
+                    "engine_version": "14.0.409.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Tencent": {
+                    "category": "malicious",
+                    "engine_name": "Tencent",
+                    "engine_version": "1.0.0.1",
+                    "result": "Win32.Trojan-spy.Zuru.Ajvm",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Ad-Aware": {
+                    "category": "malicious",
+                    "engine_name": "Ad-Aware",
+                    "engine_version": "3.0.21.193",
+                    "result": "Trojan.MAC.ZuRu.B",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Sophos": {
+                    "category": "malicious",
+                    "engine_name": "Sophos",
+                    "engine_version": "1.4.1.0",
+                    "result": "OSX/ZuRu-C",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Comodo": {
+                    "category": "undetected",
+                    "engine_name": "Comodo",
+                    "engine_version": "34044",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20211102"
+                },
+                "F-Secure": {
+                    "category": "undetected",
+                    "engine_name": "F-Secure",
+                    "engine_version": "12.0.86.52",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "DrWeb": {
+                    "category": "malicious",
+                    "engine_name": "DrWeb",
+                    "engine_version": "7.0.52.8270",
+                    "result": "Mac.Trojan.ZuRu.3",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Zillya": {
+                    "category": "undetected",
+                    "engine_name": "Zillya",
+                    "engine_version": "2.0.0.4539",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220104"
+                },
+                "TrendMicro": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro",
+                    "engine_version": "11.0.0.1006",
+                    "result": "TROJ_FRS.0NA103IR21",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "McAfee-GW-Edition": {
+                    "category": "malicious",
+                    "engine_name": "McAfee-GW-Edition",
+                    "engine_version": "v2019.1.2+3728",
+                    "result": "OSX-SpyZuru",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "FireEye": {
+                    "category": "malicious",
+                    "engine_name": "FireEye",
+                    "engine_version": "32.44.1.0",
+                    "result": "Trojan.MAC.ZuRu.B",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Emsisoft": {
+                    "category": "malicious",
+                    "engine_name": "Emsisoft",
+                    "engine_version": "2021.5.0.7597",
+                    "result": "Trojan.MAC.ZuRu.B (B)",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "SentinelOne": {
+                    "category": "undetected",
+                    "engine_name": "SentinelOne",
+                    "engine_version": "7.0.0.7",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20211129"
+                },
+                "Avast-Mobile": {
+                    "category": "type-unsupported",
+                    "engine_name": "Avast-Mobile",
+                    "engine_version": "220105-04",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Jiangmin": {
+                    "category": "undetected",
+                    "engine_name": "Jiangmin",
+                    "engine_version": "16.0.100",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220104"
+                },
+                "Webroot": {
+                    "category": "type-unsupported",
+                    "engine_name": "Webroot",
+                    "engine_version": "1.0.0.403",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Avira": {
+                    "category": "malicious",
+                    "engine_name": "Avira",
+                    "engine_version": "8.3.3.12",
+                    "result": "OSX/Spy.ZuRu.nphvp",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "eGambit": {
+                    "category": "type-unsupported",
+                    "engine_name": "eGambit",
+                    "engine_version": null,
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "MAX": {
+                    "category": "malicious",
+                    "engine_name": "MAX",
+                    "engine_version": "2019.9.16.1",
+                    "result": "malware (ai score=82)",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Antiy-AVL": {
+                    "category": "undetected",
+                    "engine_name": "Antiy-AVL",
+                    "engine_version": "3.0.0.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Kingsoft": {
+                    "category": "undetected",
+                    "engine_name": "Kingsoft",
+                    "engine_version": "2017.9.26.565",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Microsoft": {
+                    "category": "malicious",
+                    "engine_name": "Microsoft",
+                    "engine_version": "1.1.18800.4",
+                    "result": "Trojan:MacOS/ZuRu.A!MTB",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Gridinsoft": {
+                    "category": "undetected",
+                    "engine_name": "Gridinsoft",
+                    "engine_version": "1.0.67.167",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Arcabit": {
+                    "category": "malicious",
+                    "engine_name": "Arcabit",
+                    "engine_version": "1.0.0.888",
+                    "result": "Trojan.MAC.ZuRu.B",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "SUPERAntiSpyware": {
+                    "category": "undetected",
+                    "engine_name": "SUPERAntiSpyware",
+                    "engine_version": "5.6.0.1032",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220101"
+                },
+                "GData": {
+                    "category": "malicious",
+                    "engine_name": "GData",
+                    "engine_version": "A:25.31917B:27.25760",
+                    "result": "Trojan.MAC.ZuRu.A",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "BitDefenderFalx": {
+                    "category": "type-unsupported",
+                    "engine_name": "BitDefenderFalx",
+                    "engine_version": "2.0.936",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220103"
+                },
+                "AhnLab-V3": {
+                    "category": "undetected",
+                    "engine_name": "AhnLab-V3",
+                    "engine_version": "3.21.2.10258",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Acronis": {
+                    "category": "undetected",
+                    "engine_name": "Acronis",
+                    "engine_version": "1.1.1.82",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210512"
+                },
+                "BitDefenderTheta": {
+                    "category": "undetected",
+                    "engine_name": "BitDefenderTheta",
+                    "engine_version": "7.2.37796.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20211223"
+                },
+                "ALYac": {
+                    "category": "malicious",
+                    "engine_name": "ALYac",
+                    "engine_version": "1.1.3.1",
+                    "result": "Trojan.OSX.ZuRu",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "TACHYON": {
+                    "category": "undetected",
+                    "engine_name": "TACHYON",
+                    "engine_version": "2022-01-05.02",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "VBA32": {
+                    "category": "undetected",
+                    "engine_name": "VBA32",
+                    "engine_version": "5.0.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Cylance": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cylance",
+                    "engine_version": "2.3.1.101",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Zoner": {
+                    "category": "undetected",
+                    "engine_name": "Zoner",
+                    "engine_version": "2.2.2.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220104"
+                },
+                "Rising": {
+                    "category": "undetected",
+                    "engine_name": "Rising",
+                    "engine_version": "25.0.0.27",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Yandex": {
+                    "category": "undetected",
+                    "engine_name": "Yandex",
+                    "engine_version": "5.5.2.24",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Ikarus": {
+                    "category": "malicious",
+                    "engine_name": "Ikarus",
+                    "engine_version": "0.1.5.2",
+                    "result": "Trojan.OSX.Spy",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "MaxSecure": {
+                    "category": "undetected",
+                    "engine_name": "MaxSecure",
+                    "engine_version": "1.0.0.1",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Fortinet": {
+                    "category": "malicious",
+                    "engine_name": "Fortinet",
+                    "engine_version": "6.2.142.0",
+                    "result": "W32/OSX.ZURU!tr",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "AVG": {
+                    "category": "malicious",
+                    "engine_name": "AVG",
+                    "engine_version": "21.1.5827.0",
+                    "result": "MacOS:ZuRu-A [Trj]",
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "Cybereason": {
+                    "category": "type-unsupported",
+                    "engine_name": "Cybereason",
+                    "engine_version": "1.2.449",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20210330"
+                },
+                "Panda": {
+                    "category": "undetected",
+                    "engine_name": "Panda",
+                    "engine_version": "4.6.4.2",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": "20220105"
+                },
+                "CrowdStrike": {
+                    "category": "type-unsupported",
+                    "engine_name": "CrowdStrike",
+                    "engine_version": "1.0",
+                    "result": null,
+                    "method": "blacklist",
+                    "engine_update": null
+                }
+            },
+            "sha256": "f1277ace85516f9decce8d86f5faceb9bb2ac9dd4faed5563c98b00df0545c3f",
+            "tags": [
+                "64bits",
+                "multi-arch",
+                "macho",
+                "arm",
+                "signed"
+            ],
+            "last_analysis_date": 1641398639,
+            "unique_sources": 1,
+            "first_submission_date": 1631436458,
+            "macho_info": [
+                {
+                    "libs": [
+                        "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+                        "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+                        "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+                        "/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData",
+                        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+                        "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+                        "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+                        "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+                        "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+                        "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+                        "/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication",
+                        "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+                        "/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit",
+                        "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",
+                        "/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz",
+                        "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+                        "/System/Library/Frameworks/ScriptingBridge.framework/Versions/A/ScriptingBridge",
+                        "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+                        "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+                        "/usr/lib/libSystem.B.dylib",
+                        "/usr/lib/libaprutil-1.0.dylib",
+                        "/usr/lib/libc++.1.dylib",
+                        "/usr/lib/libicucore.A.dylib",
+                        "/usr/lib/libncurses.5.4.dylib",
+                        "/usr/lib/libobjc.A.dylib",
+                        "/usr/lib/libsqlite3.dylib",
+                        "/usr/lib/libz.1.dylib",
+                        "@executable_path/../Frameworks/NMSSH.framework/Versions/A/NMSSH",
+                        "@executable_path/../Frameworks/libcrypto.2.dylib",
+                        "@rpath/BetterFontPicker.framework/Versions/A/BetterFontPicker",
+                        "@rpath/ColorPicker.framework/Versions/A/ColorPicker",
+                        "@rpath/CoreParse.framework/Versions/A/CoreParse",
+                        "@rpath/SearchableComboListView.framework/Versions/A/SearchableComboListView",
+                        "@rpath/Sparkle.framework/Versions/A/Sparkle"
+                    ],
+                    "headers": {
+                        "cpu_subtype": "X86_64_ALL",
+                        "magic": "0xfeedfacf",
+                        "file_type": "executable file",
+                        "num_cmds": 51,
+                        "size_cmds": 6128,
+                        "flags": [
+                            "BINDS_TO_WEAK",
+                            "DYLDLINK",
+                            "NOUNDEFS",
+                            "PIE",
+                            "TWOLEVEL",
+                            "WEAK_DEFINES"
+                        ],
+                        "cpu_type": "x86_64",
+                        "reserved": "0x0",
+                        "entrypoint": "0x4270"
+                    },
+                    "commands": [
+                        {
+                            "type": "LC_DYLD_INFO_ONLY"
+                        },
+                        {
+                            "type": "LC_SYMTAB"
+                        },
+                        {
+                            "type": "LC_DYSYMTAB"
+                        },
+                        {
+                            "type": "LC_LOAD_DYLINKER"
+                        },
+                        {
+                            "type": "LC_UUID"
+                        },
+                        {
+                            "type": "0x32"
+                        },
+                        {
+                            "type": "LC_SOURCE_VERSION"
+                        },
+                        {
+                            "type": "LC_MAIN"
+                        },
+                        {
+                            "type": "LC_LOAD_DYLIB"
+                        },
+                        {
+                            "type": "LC_RPATH"
+                        },
+                        {
+                            "type": "LC_FUNCTION_STARTS"
+                        },
+                        {
+                            "type": "LC_DATA_IN_CODE"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "name": "__PAGEZERO",
+                            "fileoff": "0x0",
+                            "vmsize": "0x100000000",
+                            "filesize": "0x0",
+                            "vmaddr": "0x0",
+                            "sections": []
+                        },
+                        {
+                            "name": "__TEXT",
+                            "fileoff": "0x0",
+                            "vmsize": "0x71c000",
+                            "filesize": "0x71c000",
+                            "vmaddr": "0x100000000",
+                            "sections": [
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR",
+                                        "SECTION_ATTRIBUTES_SYS"
+                                    ],
+                                    "name": "__text"
+                                },
+                                {
+                                    "type": "S_SYMBOL_STUBS",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR",
+                                        "SECTION_ATTRIBUTES_SYS"
+                                    ],
+                                    "name": "__stubs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR",
+                                        "SECTION_ATTRIBUTES_SYS"
+                                    ],
+                                    "name": "__stub_helper"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__cstring"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__objc_methname"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__const"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__objc_classname"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__objc_methtype"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__gcc_except_tab"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__ustring"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__unwind_info"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__eh_frame"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__DATA",
+                            "fileoff": "0x71c000",
+                            "vmsize": "0x23c000",
+                            "filesize": "0x234000",
+                            "vmaddr": "0x10071c000",
+                            "sections": [
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [
+                                        "S_8BYTE_LITERALS"
+                                    ],
+                                    "name": "__nl_symbol_ptr"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [
+                                        "S_8BYTE_LITERALS"
+                                    ],
+                                    "name": "__got"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [
+                                        "S_CSTRING_LITERALS",
+                                        "S_8BYTE_LITERALS"
+                                    ],
+                                    "name": "__la_symbol_ptr"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [
+                                        "S_SYMBOL_STUBS"
+                                    ],
+                                    "name": "__mod_init_func"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__const"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__cfstring"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_classlist"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_catlist"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_protolist"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_imageinfo"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_const"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [
+                                        "S_8BYTE_LITERALS",
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_selrefs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_protorefs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_classrefs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_superrefs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_ivar"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_data"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__data"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [],
+                                    "name": "__bss"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [],
+                                    "name": "__common"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__LINKEDIT",
+                            "fileoff": "0x950000",
+                            "vmsize": "0x858000",
+                            "filesize": "0x8578a0",
+                            "vmaddr": "0x100958000",
+                            "sections": []
+                        }
+                    ]
+                },
+                {
+                    "libs": [
+                        "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+                        "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+                        "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+                        "/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData",
+                        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+                        "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+                        "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+                        "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+                        "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+                        "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+                        "/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication",
+                        "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+                        "/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit",
+                        "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",
+                        "/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz",
+                        "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+                        "/System/Library/Frameworks/ScriptingBridge.framework/Versions/A/ScriptingBridge",
+                        "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+                        "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+                        "/usr/lib/libSystem.B.dylib",
+                        "/usr/lib/libaprutil-1.0.dylib",
+                        "/usr/lib/libc++.1.dylib",
+                        "/usr/lib/libicucore.A.dylib",
+                        "/usr/lib/libncurses.5.4.dylib",
+                        "/usr/lib/libobjc.A.dylib",
+                        "/usr/lib/libsqlite3.dylib",
+                        "/usr/lib/libz.1.dylib",
+                        "@executable_path/../Frameworks/NMSSH.framework/Versions/A/NMSSH",
+                        "@executable_path/../Frameworks/libcrypto.2.dylib",
+                        "@rpath/BetterFontPicker.framework/Versions/A/BetterFontPicker",
+                        "@rpath/ColorPicker.framework/Versions/A/ColorPicker",
+                        "@rpath/CoreParse.framework/Versions/A/CoreParse",
+                        "@rpath/SearchableComboListView.framework/Versions/A/SearchableComboListView",
+                        "@rpath/Sparkle.framework/Versions/A/Sparkle"
+                    ],
+                    "headers": {
+                        "cpu_subtype": "ARM64_ALL",
+                        "magic": "0xfeedfacf",
+                        "file_type": "executable file",
+                        "num_cmds": 52,
+                        "size_cmds": 6200,
+                        "flags": [
+                            "BINDS_TO_WEAK",
+                            "DYLDLINK",
+                            "NOUNDEFS",
+                            "PIE",
+                            "TWOLEVEL",
+                            "WEAK_DEFINES"
+                        ],
+                        "cpu_type": "ARM64",
+                        "reserved": "0x0",
+                        "entrypoint": "0x1ebc"
+                    },
+                    "commands": [
+                        {
+                            "type": "LC_DYLD_INFO_ONLY"
+                        },
+                        {
+                            "type": "LC_SYMTAB"
+                        },
+                        {
+                            "type": "LC_DYSYMTAB"
+                        },
+                        {
+                            "type": "LC_LOAD_DYLINKER"
+                        },
+                        {
+                            "type": "LC_UUID"
+                        },
+                        {
+                            "type": "0x32"
+                        },
+                        {
+                            "type": "LC_SOURCE_VERSION"
+                        },
+                        {
+                            "type": "LC_MAIN"
+                        },
+                        {
+                            "type": "LC_LOAD_DYLIB"
+                        },
+                        {
+                            "type": "LC_RPATH"
+                        },
+                        {
+                            "type": "LC_FUNCTION_STARTS"
+                        },
+                        {
+                            "type": "LC_DATA_IN_CODE"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "name": "__PAGEZERO",
+                            "fileoff": "0x0",
+                            "vmsize": "0x100000000",
+                            "filesize": "0x0",
+                            "vmaddr": "0x0",
+                            "sections": []
+                        },
+                        {
+                            "name": "__TEXT",
+                            "fileoff": "0x0",
+                            "vmsize": "0x738000",
+                            "filesize": "0x738000",
+                            "vmaddr": "0x100000000",
+                            "sections": [
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR",
+                                        "SECTION_ATTRIBUTES_SYS"
+                                    ],
+                                    "name": "__text"
+                                },
+                                {
+                                    "type": "S_SYMBOL_STUBS",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR",
+                                        "SECTION_ATTRIBUTES_SYS"
+                                    ],
+                                    "name": "__stubs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR",
+                                        "SECTION_ATTRIBUTES_SYS"
+                                    ],
+                                    "name": "__stub_helper"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_methlist"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__cstring"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__objc_methname"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__const"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__objc_classname"
+                                },
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [],
+                                    "name": "__objc_methtype"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__gcc_except_tab"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__ustring"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__unwind_info"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__eh_frame"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__DATA_CONST",
+                            "fileoff": "0x738000",
+                            "vmsize": "0x74000",
+                            "filesize": "0x74000",
+                            "vmaddr": "0x100738000",
+                            "sections": [
+                                {
+                                    "type": "S_CSTRING_LITERALS",
+                                    "flags": [
+                                        "S_8BYTE_LITERALS"
+                                    ],
+                                    "name": "__got"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [
+                                        "S_SYMBOL_STUBS"
+                                    ],
+                                    "name": "__mod_init_func"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__const"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__cfstring"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_classlist"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_catlist"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_protolist"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_imageinfo"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__DATA",
+                            "fileoff": "0x7ac000",
+                            "vmsize": "0x138000",
+                            "filesize": "0x12c000",
+                            "vmaddr": "0x1007ac000",
+                            "sections": [
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [
+                                        "S_CSTRING_LITERALS",
+                                        "S_8BYTE_LITERALS"
+                                    ],
+                                    "name": "__la_symbol_ptr"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_const"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [
+                                        "S_8BYTE_LITERALS",
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_selrefs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_protorefs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_classrefs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [
+                                        "SECTION_ATTRIBUTES_USR"
+                                    ],
+                                    "name": "__objc_superrefs"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_ivar"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__objc_data"
+                                },
+                                {
+                                    "type": "S_REGULAR",
+                                    "flags": [],
+                                    "name": "__data"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [],
+                                    "name": "__bss"
+                                },
+                                {
+                                    "type": "S_ZEROFILL",
+                                    "flags": [],
+                                    "name": "__common"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "__LINKEDIT",
+                            "fileoff": "0x8d8000",
+                            "vmsize": "0x840000",
+                            "filesize": "0x83dba0",
+                            "vmaddr": "0x1008e4000",
+                            "sections": []
+                        }
+                    ]
+                }
+            ],
+            "ssdeep": "196608:ZdZVbBjxb1HlthfA5792UhO1v2CNrfyZheBCcfUu1cj/rGr/3buiSJ6OhXq4LhO1:/ZVHtNfpTecI1d56mC9ulx8ki1DYxZc",
+            "md5": "7f42a1d7525c06f80cd986b64e0507ba",
+            "sha1": "b6d08414e93b943db62fb943e9f677f2999eefee",
+            "magic": "Mach-O fat file with 2 architectures",
+            "last_analysis_stats": {
+                "harmless": 0,
+                "type-unsupported": 12,
+                "suspicious": 0,
+                "confirmed-timeout": 0,
+                "timeout": 0,
+                "failure": 1,
+                "malicious": 28,
+                "undetected": 32
+            },
+            "meaningful_name": "com.googlecode.iterm2",
+            "reputation": 0
+        },
+        "type": "file",
+        "id": "f1277ace85516f9decce8d86f5faceb9bb2ac9dd4faed5563c98b00df0545c3f",
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/files/f1277ace85516f9decce8d86f5faceb9bb2ac9dd4faed5563c98b00df0545c3f"
+        }
+    }
+}
