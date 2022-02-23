@@ -24,12 +24,12 @@ for filename in os.listdir("../../json"):
     c.write(jsondecoded['data']['attributes']['type_description']+', ') 
     c.write(str(jsondecoded['data']['attributes']['size'])+', ') 
     c.write(jsondecoded['data']['attributes']['popular_threat_classification']['popular_threat_category'][0]['value']+', ') 
-    for engine in jsondecoded['data']['attributes']['last_analysis_results']:
-        c.write(jsondecoded['data']['attributes']['last_analysis_results'][engine]['category']+', ')
     c.write(str(datetime.datetime.fromtimestamp(jsondecoded['data']['attributes']['last_submission_date']))+', ')
-    c.write(str(datetime.datetime.fromtimestamp(jsondecoded['data']['attributes']['first_submission_date'])))
+    c.write(str(datetime.datetime.fromtimestamp(jsondecoded['data']['attributes']['first_submission_date']))+', ')
     c.write('\n')
 
+    for engine in jsondecoded['data']['attributes']['last_analysis_results']:
+        c.write(jsondecoded['data']['attributes']['last_analysis_results'][engine]['category']+', ')
 #    c.write(jsondecoded['data']['attributes']['trid'][1]['file_type']+', ')
 #    c.write(jsondecoded['data']['attributes']['reputation']+', ')
 #    
