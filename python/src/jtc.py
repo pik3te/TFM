@@ -1,7 +1,6 @@
 import os
 import json
 import datetime
-import numpy as np
 import pandas as pd
 
 output = open("../../demo.json","w")
@@ -16,8 +15,8 @@ for filename in os.listdir("../../json"):
     my_dict['sha1'] = json_decode.get('data').get('attributes').get('sha1')
     my_dict['type'] = json_decode.get('data').get('attributes').get('type_description')
     my_dict['size'] = json_decode.get('data').get('attributes').get('size')
-    my_dict['first'] = json_decode.get('data').get('attributes').get('first_submission_date')
-    my_dict['last'] = json_decode.get('data').get('attributes').get('last_submission_date')
+    my_dict['first'] = str(datetime.datetime.fromtimestamp(json_decode.get('data').get('attributes').get('first_submission_date')))
+    my_dict['last'] = str(datetime.datetime.fromtimestamp(json_decode.get('data').get('attributes').get('last_submission_date')))
     analysis = []
     for engine in json_decode['data']['attributes']['last_analysis_results']:
         analysis_dict = {}
