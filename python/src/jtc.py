@@ -18,6 +18,12 @@ for filename in os.listdir("../../json"):
     my_dict['size'] = json_decode.get('data').get('attributes').get('size')
     my_dict['first'] = json_decode.get('data').get('attributes').get('first_submission_date')
     my_dict['last'] = json_decode.get('data').get('attributes').get('last_submission_date')
+    analysis = []
+    for engine in json_decode['data']['attributes']['last_analysis_results']:
+        analysis_dict = {}
+        analysis_dict[engine] = json_decode['data']['attributes']['last_analysis_results'][engine]['category']
+        analysis.append(analysis_dict)
+    my_dict['analysis'] = analysis
     result.append(my_dict)
     
 
@@ -28,4 +34,3 @@ df = pd.read_json(back_json)
 print(df.head())
 print(df.info())
 print(df.tail())
-
