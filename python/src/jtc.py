@@ -35,7 +35,4 @@ df.first_t = pd.to_datetime(df.first_t)
 df.last_t = pd.to_datetime(df.last_t)
 print(df.category.value_counts())
 print(df.info())
-print(df.groupby(['category', pd.Grouper(key='first_t',axis=0,freq='Y')]).count())
-print(df.count())
-print(df.groupby(pd.Grouper(key='first_t',axis=0,freq='Y')).count(axis=1))
-
+print(df.groupby(['category', pd.Grouper(key='first_t',axis=0,freq='Y')]).size())
