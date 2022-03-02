@@ -3,6 +3,7 @@ import numpy as np
 import json
 import datetime
 import pandas as pd
+#some testing to test if git is configured
 
 output = open("../../demo.json","w")
 
