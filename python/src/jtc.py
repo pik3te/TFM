@@ -3,7 +3,6 @@ import numpy as np
 import json
 import datetime
 import pandas as pd
-#some testing to test if git is configured
 
 output = open("../../demo.json","w")
 
@@ -17,8 +16,9 @@ for filename in os.listdir("../../json"):
     my_dict['sha1'] = json_decode.get('data').get('attributes').get('sha1')
     my_dict['type'] = json_decode.get('data').get('attributes').get('type_description')
     my_dict['size'] = json_decode.get('data').get('attributes').get('size')
-    my_dict['first'] = str(datetime.datetime.fromtimestamp(json_decode.get('data').get('attributes').get('first_submission_date')))
-    my_dict['last'] = str(datetime.datetime.fromtimestamp(json_decode.get('data').get('attributes').get('last_submission_date')))
+    my_dict['category'] = json_decode['data']['attributes']['popular_threat_classification']['popular_threat_category'][0]['value']
+    my_dict['first_t'] = str(datetime.datetime.fromtimestamp(json_decode.get('data').get('attributes').get('first_submission_date')))
+    my_dict['last_t'] = str(datetime.datetime.fromtimestamp(json_decode.get('data').get('attributes').get('last_submission_date')))
     analysis = []
     for engine in json_decode['data']['attributes']['last_analysis_results']:
         analysis_dict = {}
@@ -30,8 +30,12 @@ for filename in os.listdir("../../json"):
 
 back_json = json.dumps(result)
 output.write(back_json)
-print(back_json)
 df = pd.read_json(back_json)
-print(df.head())
+df.first_t = pd.to_datetime(df.first_t)
+df.last_t = pd.to_datetime(df.last_t)
+print(df.category.value_counts())
 print(df.info())
-print(df.tail())
+print(df.groupby(['category', pd.Grouper(key='first_t',axis=0,freq='Y')]).count())
+print(df.count())
+print(df.groupby(pd.Grouper(key='first_t',axis=0,freq='Y')).count(axis=1))
+
