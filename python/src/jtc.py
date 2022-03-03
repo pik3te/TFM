@@ -4,7 +4,6 @@ import json
 import datetime
 import pandas as pd
 #test for pc
-#test 2 for pc
 
 output = open("../../demo.json","w")
 
